@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Featured projects (F0-08) and home hero photos
+Contexto: 6–8 proyectos destacados que cubran los segmentos de la estrategia; fotos del hero. | Opciones: los 6 de Santiago + 1–2 de Claude (Mompox, Tatamá, Oviedo) | Elegida: Plaza de la Libertad, MOVA, Casa La Pausa, Forum UdeM, Auditorio La Enseñanza, CEFE Las Cometas + Albarrada de Mompox + Hospital Tatamá. Hero: OPUS REF #1, #7, #8, #9 (fotos reales de OPUS; reemplazan las de Pinterest E1–E5). | Por qué: Mompox sostiene la propuesta "architecture and landscape" (BLAP); Tatamá respalda el premio WAF 2024 de la franja de prueba social. | Tensión: no
+
 ## 2026-11-12 — OPUS project images: originals local, optimized selection committed
 Contexto: 545 imágenes (26 proyectos) descargadas de opusestudio.com para las páginas de proyecto; son © de OPUS y de sus fotógrafos y el repo es público. | Opciones: A) commitearlas al repo público, B) mantenerlas fuera de git (`assets-src/`, gitignored) hasta decidir, C) publicarlas solo en el deploy vía almacenamiento externo | Elegida: B para los originales (233 MB, demasiado peso para git) + Santiago aprueba publicar en el repo **solo las imágenes que se usen**, optimizadas (WebP, ancho máx. ~2000 px), con crédito visible y en assets-credits. | Por qué: Santiago quiere las fotos en el repo; meter 545 originales infla el historial de git para siempre, la selección optimizada no. | Tensión: no
 

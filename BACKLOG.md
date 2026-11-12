@@ -7,10 +7,10 @@
 ---
 
 ## ▶ Now
-- **Fase activa:** F0 — Setup y discovery
-- **Siguiente paso exacto:** F0-08 (selección de 6–8 proyectos destacados con las fotos de `assets-src/opus-projects/`)
+- **Fase activa:** F1 — Low-fi MOBILE
+- **Siguiente paso exacto:** F1-01 (arquitectura de información y sitemap: 3 opciones)
 - **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
-- **Pendiente de Santiago:** las nuevas fotos de OPUS para el hero no aparecen aún en `Referencias ESTRUCTURALES` (¿OneDrive sin sincronizar?)
+- **Pendiente de Santiago:** —
 - **Bloqueos:** —
 
 ## 📥 Inbox (ideas o trabajo nuevo sin clasificar)
@@ -27,7 +27,7 @@
 - [x] **F0-05** Analizar las referencias (ESTRUCTURALES y WEB) **una sola vez** y escribir `docs/references.md`: patrones, layouts, tipografía, motion, qué tomar y qué evitar.
 - [x] **F0-06** Recoger los hallazgos de la auditoría que Santiago ya hizo de opusestudio.com y complementarlos: problemas de UX y conversión, inventario de contenido (servicios, proyectos, premios, equipo) y tono. Registrar fuentes en `content-sources.md`.
 - [x] **F0-07** Estrategia de conversión: públicos objetivo (privados, desarrolladores o constructoras, entidades públicas), propuesta de valor, objeciones y embudo hasta "Book a consultation". ✅
-- [ ] **F0-08** Selección de proyectos destacados (6–8) con criterio de narrativa y prueba social; Santiago aporta las imágenes y se registran los créditos. ✅
+- [x] **F0-08** Selección de proyectos destacados (6–8) con criterio de narrativa y prueba social; Santiago aporta las imágenes y se registran los créditos. ✅
 
 ## F1 — Low-fi MOBILE
 - [ ] **F1-01** Arquitectura de información y sitemap: 3 opciones (p. ej. one-page larga vs. multipágina vs. híbrida). ✅
@@ -120,3 +120,4 @@
 - 2026-11-12 · F0-06: auditoría de Santiago registrada (falta "magia", mandato de letras delante/detrás) + inventario completo de opusestudio.com (proyectos, premios, equipo, clientes, tono) en content-sources.md y case-study.md · Siguiente: F0-04
 - 2026-11-12 · F0-04: opción B aprobada (por plataforma); páginas creadas en Figma vía Chrome; opciones registradas en DECISIONS · Siguiente: F0-07
 - 2026-11-12 · F0-07 redactado (docs/conversion-strategy.md, 2 tensiones pendientes); 545 imágenes de 26 proyectos descargadas de opusestudio.com a assets-src/ (gitignored) con manifest; fotos E1–E5 registradas como candidatas al hero · Siguiente: tensiones F0-07 → F0-08
+- 2026-11-12 · F0-07 cerrado (tensiones → C); F0-08: 8 destacados (6 de Santiago + Mompox y Tatamá); hero = OPUS REF #1, #7, #8, #9 · Siguiente: F1-01

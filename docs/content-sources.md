@@ -45,3 +45,18 @@ BLAP cross-checked in press: [ArchDaily](https://www.archdaily.com/es/902377/rev
 ## Contact channels on the current site (types only — we never use the real ones)
 
 Physical address (Medellín), landline, WhatsApp, email, newsletter signup, Instagram / LinkedIn / Facebook. Source: http://opusestudio.com/contacto-contact. Per CLAUDE.md §11, the concept site routes nothing to OPUS.
+
+## Featured selection for the redesign (F0-08, 2026-11-12)
+
+| # | Project | Picked by | Why (segment / proof) | Local images |
+|---|---|---|---|---|
+| 1 | Centro Cívico Plaza de la Libertad, Medellín | Santiago | Civic + public space; architecture and landscape in one project | `01-plaza-de-la-libertad` (41) |
+| 2 | MOVA Centro de Innovación del Maestro, Medellín | Santiago | Education/institutional; ArchDaily Building of the Year 2025 finalist | `04-mova` (26) |
+| 3 | Casa La Pausa, Carmen de Viboral | Santiago | Private house → segment A (private clients) | `10-la-pausa` (27) |
+| 4 | Edificio Forum UdeM, Medellín | Santiago | University → segment C | `12-udem` (5 — thin set) |
+| 5 | Auditorio La Enseñanza, Medellín | Santiago | Culture/education interior | `13-auditorio-enseanza` (20) |
+| 6 | CEFE Las Cometas, Bogotá | Santiago | IAA 2024 winner + Premio Obras CEMEX 2023 | `05-cefe-las-cometas` (51) |
+| 7 | Revitalización Albarrada de Mompox | Claude | **Landscape proof**: BLAP 2018 Gran Premio, Quito 2018, Karl Brunner 2016 — the differentiator in the value proposition | `14-mompox` (21) |
+| 8 | Hospital Tatamá, Pereira | Claude | Most-awarded recent work (WAF 2024, AR Future Projects 2025, PLAH+ 2023); health typology. Status `[VERIFY]` — awards suggest unbuilt, label it `In design` | `02-tatam` (8) |
+
+Alternative for #8 if a built commercial project is preferred (segment B, developers): Centro Comercial Oviedo (`08-oviedo`, 30 images, photos Juliana Gómez – Bl4ckVisual).
