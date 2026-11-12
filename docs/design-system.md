@@ -7,7 +7,7 @@ _Pending — to be filled during phase F2 after Santiago approves the options._
 
 ## Typography
 
-Status: **options proposed (F2-01), awaiting approval.** Figma: `01 Foundations` › "F2 · Typography (F2-01)". All fonts: Google Fonts, SIL OFL, self-hosted with `next/font/google`. Availability verified on fonts.googleapis.com and in Figma (2026-11-12).
+Status: **A approved (2026-11-12): Barlow Condensed (display Black / heading Bold) + Barlow (text Regular / SemiBold) + IBM Plex Mono (data).** Figma: `01 Foundations` › "F2 · Typography (F2-01)". All fonts: Google Fonts, SIL OFL, self-hosted with `next/font/google`. Availability verified on fonts.googleapis.com and in Figma (2026-11-12).
 
 | | A — Barlow Condensed + Barlow + IBM Plex Mono ★ | B — Anton + Inter + JetBrains Mono | C — Big Shoulders Display + Public Sans + Space Mono |
 |---|---|---|---|

@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Typography: Barlow Condensed + Barlow + IBM Plex Mono (F2-01)
+Contexto: tipografía display + texto + mono para datos, licencia libre web, escala fluida 390→1440. | Opciones: A) Barlow Condensed + Barlow + IBM Plex Mono, B) Anton + Inter + JetBrains Mono, C) Big Shoulders Display + Public Sans + Space Mono | Elegida: A | Por qué: superfamilia coherente con voz cívica/infraestructura; condensada cabe nombres largos a 390 px; cuerpo muy legible para formularios. Costo: Barlow es estática (~5 archivos woff2). Escala de 9 tokens en `docs/design-system.md`. | Tensión: no
+
 ## 2026-11-12 — Low-fi MOBILE closed (F1-09)
 Contexto: cierre de la fase F1. | Elegidas: IA C (híbrida) · Flujos booking A + admin C · Home A (Monolith) + parallax 2 (P1+P2, mobile y desktop) · Projects A · Detail B2 + B-LIGHT · Studio C2 · Booking A · Admin A (+ repetir 4 semanas) | Descartadas: IA A/B · booking B/C · admin-flow A/B · Home B/C · parallax P3/P4 y combinaciones 1/3 · Projects B/C · Detail A/B/C/A-LIGHT · Studio A/B/C · Booking B/C · Admin B/C. | Figma: aprobadas en `02 Mobile` (una sección por vista, compactada); descartadas movidas a `01 Foundations` (secciones "Archive · …"), no borradas. Detalle en `docs/lowfi.md`. | Tensión: resueltas en sus entradas (hero, detalle, studio).
 
