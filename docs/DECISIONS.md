@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Information architecture: hybrid (F1-01)
+Contexto: sitemap mobile-first con 26 proyectos (8 destacados). | Opciones: A) one-page narrativa, B) multipágina clásica, C) híbrida | Elegida: C | Por qué: Home narrativa con prueba social a un scroll del CTA; nav de 3 ítems (Projects · Studio · Book); 8 detalles completos + 18 ligeros en un archivo filtrable; `/book` dedicado con prefill desde proyecto. Detalle en `docs/information-architecture.md`. | Tensión: no
+
 ## 2026-11-12 — Featured projects (F0-08) and home hero photos
 Contexto: 6–8 proyectos destacados que cubran los segmentos de la estrategia; fotos del hero. | Opciones: los 6 de Santiago + 1–2 de Claude (Mompox, Tatamá, Oviedo) | Elegida: Plaza de la Libertad, MOVA, Casa La Pausa, Forum UdeM, Auditorio La Enseñanza, CEFE Las Cometas + Albarrada de Mompox + Hospital Tatamá. Hero: OPUS REF #1, #7, #8, #9 (fotos reales de OPUS; reemplazan las de Pinterest E1–E5). | Por qué: Mompox sostiene la propuesta "architecture and landscape" (BLAP); Tatamá respalda el premio WAF 2024 de la franja de prueba social. | Tensión: no
 
