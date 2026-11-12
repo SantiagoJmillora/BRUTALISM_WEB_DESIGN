@@ -132,7 +132,7 @@ Recommendation: **A**.
 
 ## F1-08 · Admin (mobile 390 × 844)
 
-Status: **options proposed, awaiting approval.** Figma: section "F1 · Admin — Low-fi mobile (F1-08)". Flow C from F1-02 (inbox + agenda).
+Status: **A approved (2026-11-12) incl. "repeat 4 weeks" in bulk slot creation.** Figma: section "F1 · Admin — Low-fi mobile (F1-08)". Flow C from F1-02 (inbox + agenda).
 
 | | A — Sections + detail + bottom tabs ★ | B — Tabs + inline actions + week grid | C — Swipe triage |
 |---|---|---|---|
@@ -142,6 +142,6 @@ Status: **options proposed, awaiting approval.** Figma: section "F1 · Admin —
 | Risk | Lowest: every destructive action confirmed | Mis-taps (undo only); cramped grid | Destructive gesture; poor a11y; hard to e2e test |
 
 Screens drawn for A: login · dashboard · detail · cancel confirmation · availability · add slots (bulk) · empty dashboard (warns when 0 free slots).
-Scope note: "repeat 4 weeks" is a small addition to CLAUDE.md §8.3 (no recurring-rules engine) — needs approval.
+Scope note: "repeat 4 weeks" is a small addition to CLAUDE.md §8.3 (no recurring-rules engine) — **approved by Santiago 2026-11-12.**
 
 Recommendation: **A**.

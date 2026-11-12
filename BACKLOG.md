@@ -7,8 +7,8 @@
 ---
 
 ## ▶ Now
-- **Fase activa:** F1 — Low-fi MOBILE
-- **Siguiente paso exacto:** F1-08 (low-fi Admin mobile: 2–3 opciones) en curso
+- **Fase activa:** F2 — Design system
+- **Siguiente paso exacto:** F2-01 (tipografía: 3 combinaciones display + texto con licencia web y escala fluida) — se dibuja en Figma `01 Foundations`
 - **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
 - **Pendiente de Santiago:** —
 - **Bloqueos:** —
@@ -37,8 +37,8 @@
 - [x] **F1-05** Low-fi **Project detail** mobile: 3 opciones. ✅
 - [x] **F1-06** Low-fi **Studio / About** mobile: 3 opciones. ✅
 - [x] **F1-07** Low-fi **Booking** (pasos + confirmación + estados de error y vacío) mobile: 3 opciones. ✅
-- [~] **F1-08** Low-fi **Admin** (login, agenda, detalle de cita, disponibilidad) mobile: 2–3 opciones. ✅
-- [ ] **F1-09** Registrar en DECISIONS las opciones elegidas y las descartadas (estas quedan en Figma).
+- [x] **F1-08** Low-fi **Admin** (login, agenda, detalle de cita, disponibilidad) mobile: 2–3 opciones. ✅
+- [x] **F1-09** Registrar en DECISIONS las opciones elegidas y las descartadas (estas quedan en Figma).
 
 ## F2 — Design system
 - [ ] **F2-01** Tipografía: 3 combinaciones con licencia web y escala fluida. ✅
@@ -128,3 +128,4 @@
 - 2026-11-12 · F1-05: detalle B2 (editorial corta, galería protagonista) + B-LIGHT + franja de 3 datos (tensión C) · Siguiente: F1-06
 - 2026-11-12 · F1-06: Studio C2 (manifiesto + timeline 20 años) + franja Latest recognition · Siguiente: F1-07
 - 2026-11-12 · F1-07: Booking A (pasos a pantalla completa + barra fija, 7 estados) + sin horarios → próxima fecha · Siguiente: F1-08
+- 2026-11-12 · F1-08/09: Admin A (+ repetir 4 semanas); low-fi mobile cerrado; descartes movidos a `01 Foundations` (Archive), `02 Mobile` solo con lo aprobado · Siguiente: F2-01

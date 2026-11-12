@@ -9,6 +9,12 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Low-fi MOBILE closed (F1-09)
+Contexto: cierre de la fase F1. | Elegidas: IA C (híbrida) · Flujos booking A + admin C · Home A (Monolith) + parallax 2 (P1+P2, mobile y desktop) · Projects A · Detail B2 + B-LIGHT · Studio C2 · Booking A · Admin A (+ repetir 4 semanas) | Descartadas: IA A/B · booking B/C · admin-flow A/B · Home B/C · parallax P3/P4 y combinaciones 1/3 · Projects B/C · Detail A/B/C/A-LIGHT · Studio A/B/C · Booking B/C · Admin B/C. | Figma: aprobadas en `02 Mobile` (una sección por vista, compactada); descartadas movidas a `01 Foundations` (secciones "Archive · …"), no borradas. Detalle en `docs/lowfi.md`. | Tensión: resueltas en sus entradas (hero, detalle, studio).
+
+## 2026-11-12 — Admin low-fi: sections + detail + bottom tabs (F1-08)
+Contexto: panel de un solo admin en 390 px, flujo C (bandeja + agenda). | Opciones: A) secciones + detalle + tabs, B) tabs + acciones en tarjeta + grilla semanal, C) swipe | Elegida: A + "repetir el mismo día 4 semanas" al crear slots en bloque (añadido de alcance aprobado) | Por qué: menor riesgo (toda acción destructiva confirmada con consecuencias), legible en móvil, testeable. | Tensión: no
+
 ## 2026-11-12 — Booking low-fi: full-page steps + fixed bottom bar (F1-07)
 Contexto: presentación visual del flujo A (proyecto → hora → datos) y sus estados. | Opciones: A) pasos a pantalla completa + barra fija, B) conversacional 7 pantallas, C) rail de resumen | Elegida: A + estado "sin horarios" = saltar a la próxima fecha disponible (o mensaje honesto + link a Projects; sin captura de email) | Por qué: foco, acciones en zona del pulgar, progreso 1/3 claro, todos los estados cubiertos. | Tensión: no
 

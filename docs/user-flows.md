@@ -73,7 +73,7 @@ Entry (CTA anywhere | project CTA → ?type= prefilled)
    ① NEEDS ACTION: pending bookings (count badge), oldest first → detail → Confirm | Cancel
    ② UPCOMING: confirmed, grouped by day (agenda list)
  → /admin/bookings/[id]: client, project type/stage, message, time (Bogota), actions
- → /admin/availability: day list + "Add slots": date + from–to + 30-min split (bulk) · delete free slot
+ → /admin/availability: day list + "Add slots": date + from–to + 30-min split (bulk) + optional "repeat on the same weekday for 4 weeks" (approved F1-08) · delete free slot
 ```
 - UX: + puts what needs action first (inbox zero); the agenda list works at 390 px; creating slots in bulk saves dozens of taps.
 - Effort: low–medium (lists only, no calendar grid).
