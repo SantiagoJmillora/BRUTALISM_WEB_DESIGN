@@ -135,3 +135,4 @@
 - 2026-11-12 · F2-04: motion A (mecánico) · Siguiente: F2-05
 - 2026-11-12 · F2-05: 79 variables (6 colecciones) + 20 text styles ligados en Figma; mapping a tokens.css documentado · Siguiente: F2-06
 - 2026-11-12 · F2-06: 80 variantes de componentes aprobadas (foco de inputs 2 px); F2 cerrado · Siguiente: F3-01
+- 2026-11-12 · F3-01: Home hi-fi armado (instancias + fotos reales); hero D2 aprobado (banda tras el edificio, recorte auto-segmentado) · Siguiente: aprobación completa de F3-01 → F3-02

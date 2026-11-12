@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Home hero: ink band behind the building, OPUS on top (F3-01)
+Contexto: en el hero hi-fi la palabra "OPUS" (papel) se perdía en el cielo gris de REF #1. | Opciones: A) delineado negro, B) letras en tinta, C) overlay superior, D) banda de tinta detrás del texto, E) blend "difference" | Elegida: D2 (variante de D propuesta por Santiago, con ajustes suyos en Figma): capas foto → banda de tinta → edificio recortado → overlay → OPUS. Parallax P1: foto + recorte 0.7×, banda + OPUS 0.45× (la banda se esconde tras la torre). Nav del hero con fondo de tinta (texto papel sobre cielo claro no era legible). | Por qué: contraste garantizado sobre el cielo y la tipografía "interactúa" con el edificio (mandato de letras delante/detrás). "OPUS" es logotipo (exento de contraste WCAG) y va aria-hidden. Recorte auto-segmentado (cielo = liso + claro, flood fill desde el borde superior); en F6 se exporta WebP con alfa ≤ 150 KB @ 1200 px. Regla: la foto del hero debe tener cielo segmentable. | Tensión: no
+
 ## 2026-11-12 — Base components approved; input focus 2 px (F2-06) · Design system closed (F2)
 Contexto: 80 variantes de componentes sobre variables. | Cambio de Santiago: el foco de inputs pasa de borde 3 px + aro a **borde de tinta 2 px sin aro** (menos aparatoso). Botones, chips, links y slots mantienen el aro (2 px papel + 3 px tinta). | Por qué: el foco de campos se veía pesado. Cumple WCAG 2.2 AA (2.4.7 foco visible); si en pruebas el cambio 1→2 px se percibe poco, opción: borde por defecto en `muted`. | Tensión: no
 
