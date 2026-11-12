@@ -11,3 +11,7 @@
 | `Referencias/Referencias ESTRUCTURALES/OPUS REF #8 arqmova.webp` (2362×1577) | **Home hero** | OPUS — opusestudio.com/arqmova | Unknown `[VERIFY]` | Selected by Santiago |
 | `Referencias/Referencias ESTRUCTURALES/OPUS REF #9 Las cometas Bogota.webp` (2500×1667) | **Home hero** | OPUS — opusestudio.com/arqcefe-las-cometas | Unknown `[VERIFY]` | Selected by Santiago |
 | `Referencias/Referencias ESTRUCTURALES/OPUS REF #2–#6, #10–#17` | Project pages / Home support | OPUS (Plaza de la Libertad, MOVA, CEFE Las Cometas, Auditorio La Enseñanza, Casa La Pausa) | Casa La Pausa: Isaac Ramírez; Plaza: Llano / Sergio Gómez; others `[VERIFY]` | Selected by Santiago |
+| `assets-src/opus-projects/12-udem/01.jpg` | Home · featured card Forum UdeM (F3-01) | opusestudio.com/arqudem (URL in manifest) | Unknown `[VERIFY]` (render) | |
+| `assets-src/opus-projects/14-mompox/01.jpg`, `02.jpg` | Home · featured card Mompox + Landscape chapter (F3-01) | opusestudio.com/mompox-1 | Unknown `[VERIFY]` | |
+| `assets-src/opus-projects/02-tatam/01.jpg` | Home · featured card Hospital Tatamá (F3-01) | opusestudio.com/arqtatam | Unknown `[VERIFY]` (render) | |
+| OPUS REF #3, #6, #8, #10, #11, #15 | Home · featured cards + Architecture chapter (F3-01) | see rows above (Santiago's selection) | see rows above | |
