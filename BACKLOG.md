@@ -41,7 +41,7 @@
 - [x] **F1-09** Registrar en DECISIONS las opciones elegidas y las descartadas (estas quedan en Figma).
 
 ## F2 — Design system
-- [ ] **F2-01** Tipografía: 3 combinaciones con licencia web y escala fluida. ✅
+- [~] **F2-01** Tipografía: 3 combinaciones con licencia web y escala fluida. ✅
 - [ ] **F2-02** Color: 3 paletas con ratios de contraste AA documentados. ✅
 - [ ] **F2-03** Grid y espaciado (mobile y desktop): 3 propuestas y la escala de espaciado. ✅
 - [ ] **F2-04** Lenguaje de motion: 3 propuestas (duraciones, easings, patrones de parallax y transición) + reglas de reduced-motion. ✅
