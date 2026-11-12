@@ -69,7 +69,20 @@ Recommendation: **A** — the CTA is the only orange element on screen (maximum 
 
 ## Grid & spacing
 
-_Pending (F2-03)._
+Status: **options proposed (F2-03), awaiting approval.** Figma: `01 Foundations` › "F2 · Grid & spacing (F2-03)" (real Figma layout grids on each frame).
+
+| | A — Swiss 4 / 12 · base 4 ★ | B — Dense modular 6 / 12 · base 8 · visible grid | C — Editorial asymmetric 4 / 16 · base 4 + 8 px baseline |
+|---|---|---|---|
+| Mobile 390 | 4 cols · margin 16 · gutter 16 | 6 cols · margin 12 · gutter 8 | 4 cols · margin 20 · gutter 12 + 8 px baseline |
+| Desktop 1440 | 12 cols · margin 48 · gutter 24 · full-bleed | 12 cols · margin 24 · gutter 8 · hairline column rules drawn on the page | 16 cols · margin 64 · gutter 16 · asymmetric splits (10/6, 5/11) |
+| UX | + Same 16 px margins as the approved low-fi → zero rework; 12 divides into 2/3/4/6 | + Rigorous, flexible. − 12 px margins tight for reading; hairlines add noise | + Most editorial, strict vertical rhythm. − Hard to hold in code (line-heights snap to 8); more QA |
+| Conversion | Predictable; full-width CTA on mobile | − Grid competes with photos/CTA | + Elegant project pages. − Rework of margins |
+
+### Spacing scale (shared)
+`space/N = N × 4 px` (CSS `--space-N`, Tailwind-compatible): 0 · 1=4 · 2=8 · 3=12 · 4=16 · 6=24 · 8=32 · 12=48 · 16=64 · 24=96 · 32=128 · 48=192.
+Usage: 1–3 inside components · 4 = mobile margin/default gap · 6–8 between blocks · 12–16 between mobile sections · 24–48 desktop sections. Touch targets ≥ 44 px (48 in practice). Section rhythm: `--space-section: clamp(4rem, 2.5rem + 6vw, 10rem)`.
+
+Recommendation: **A**, borrowing B's hairline column rules only as ornament in selected sections (spec sheet, Studio timeline).
 
 ## Motion
 
