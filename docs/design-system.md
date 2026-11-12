@@ -86,7 +86,7 @@ Recommendation: **A**, borrowing B's hairline column rules only as ornament in s
 
 ## Motion
 
-Status: **options proposed (F2-04), awaiting approval.** Figma: `01 Foundations` › "F2 · Motion (F2-04)". Fixed for all options: parallax P1 + P2 (approved F1-03b), `transform`/`opacity` only, native scroll, `gsap.context()` + `revert()` on unmount.
+Status: **A approved (2026-11-12): Mechanical (hard cuts).** Figma: `01 Foundations` › "F2 · Motion (F2-04)". Fixed for all options: parallax P1 + P2 (approved F1-03b), `transform`/`opacity` only, native scroll, `gsap.context()` + `revert()` on unmount.
 
 | Token | A — Mechanical ★ | B — Heavy mass | C — Editorial calm |
 |---|---|---|---|

@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Motion: Mechanical / hard cuts (F2-04)
+Contexto: lenguaje de movimiento coherente con brutalismo y rendimiento. | Opciones: A) mecánico (100/200/400/700 ms, cortes secos), B) masa pesada (200–1400 ms), C) editorial calmo (fades) | Elegida: A | Por qué: el parallax P1+P2 ya da el momento cinematográfico; el resto debe sentirse instantáneo (INP percibido, CTA responde al instante). Reglas de reduced-motion en `docs/design-system.md`. | Tensión: no
+
 ## 2026-11-12 — Grid & spacing: Swiss 4/12, base 4 (F2-03)
 Contexto: grid mobile/desktop y escala de espaciado. | Opciones: A) suizo 4/12 base 4, B) modular denso 6/12 base 8 con grid visible, C) editorial asimétrico 4/16 + línea base 8 | Elegida: A (mobile 4 col · margen 16 · gutter 16; desktop 12 col · margen 48 · gutter 24; space/N = N×4 px; sección clamp 64→160) | Por qué: coincide con el low-fi aprobado (cero retrabajo), 12 columnas dan 8/4 limpios. Líneas de columna de B solo como ornamento puntual. | Tensión: no
 
