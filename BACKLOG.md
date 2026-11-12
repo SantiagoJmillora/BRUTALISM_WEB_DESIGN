@@ -8,8 +8,8 @@
 
 ## ▶ Now
 - **Fase activa:** F0 — Setup y discovery
-- **Siguiente paso exacto:** F0-04 (3 opciones de organización del Figma en 3 páginas)
-- **Bloqueos:** extensión Claude in Chrome no conectada a la sesión de Claude Code; pendiente decidir: conectarla o aprobar el MCP de Figma para F0-04
+- **Siguiente paso exacto:** F0-07 (estrategia de conversión: públicos, propuesta de valor, objeciones, embudo)
+- **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
 - **Pendiente de Santiago:** añadir capturas de proyectos OPUS a `Referencias/Referencias ESTRUCTURALES`
 - **Bloqueos:** —
 
@@ -23,7 +23,7 @@
   - *Acepta:* `git log` sin co-autoría de Claude; el push queda en GitHub.
 - [x] **F0-02** README inicial (inglés): descripción, disclaimer "Unofficial concept redesign…", estado del proyecto y stack previsto.
 - [x] **F0-03** Crear la estructura `docs/` con DECISIONS, references, design-system, content-sources, assets-credits y case-study (plantillas vacías).
-- [ ] **F0-04** Verificar el acceso a Figma por navegador (Claude in Chrome) y proponer **3 opciones** para organizar el trabajo en **3 páginas** (límite del plan gratuito). ✅
+- [x] **F0-04** Verificar el acceso a Figma por navegador (Claude in Chrome) y proponer **3 opciones** para organizar el trabajo en **3 páginas** (límite del plan gratuito). ✅
 - [x] **F0-05** Analizar las referencias (ESTRUCTURALES y WEB) **una sola vez** y escribir `docs/references.md`: patrones, layouts, tipografía, motion, qué tomar y qué evitar.
 - [x] **F0-06** Recoger los hallazgos de la auditoría que Santiago ya hizo de opusestudio.com y complementarlos: problemas de UX y conversión, inventario de contenido (servicios, proyectos, premios, equipo) y tono. Registrar fuentes en `content-sources.md`.
 - [ ] **F0-07** Estrategia de conversión: públicos objetivo (privados, desarrolladores o constructoras, entidades públicas), propuesta de valor, objeciones y embudo hasta "Book a consultation". ✅
@@ -118,3 +118,4 @@
 - 2026-11-12 · F0-01/02/03: repo inicializado (main, Node 24, sin atribución), README con disclaimer, estructura docs/ con plantillas · Siguiente: F0-04 (push pendiente de OK)
 - 2026-11-12 · F0-05: 9 referencias analizadas y resumidas en docs/references.md (dirección: editorial-brutalista, foto monocroma + 1 acento reservado al CTA) · Siguiente: F0-04 o F0-06
 - 2026-11-12 · F0-06: auditoría de Santiago registrada (falta "magia", mandato de letras delante/detrás) + inventario completo de opusestudio.com (proyectos, premios, equipo, clientes, tono) en content-sources.md y case-study.md · Siguiente: F0-04
+- 2026-11-12 · F0-04: opción B aprobada (por plataforma); páginas creadas en Figma vía Chrome; opciones registradas en DECISIONS · Siguiente: F0-07
