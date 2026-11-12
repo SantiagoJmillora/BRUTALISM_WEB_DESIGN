@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Grid & spacing: Swiss 4/12, base 4 (F2-03)
+Contexto: grid mobile/desktop y escala de espaciado. | Opciones: A) suizo 4/12 base 4, B) modular denso 6/12 base 8 con grid visible, C) editorial asimétrico 4/16 + línea base 8 | Elegida: A (mobile 4 col · margen 16 · gutter 16; desktop 12 col · margen 48 · gutter 24; space/N = N×4 px; sección clamp 64→160) | Por qué: coincide con el low-fi aprobado (cero retrabajo), 12 columnas dan 8/4 limpios. Líneas de columna de B solo como ornamento puntual. | Tensión: no
+
 ## 2026-11-12 — Color: Concrete + Signal Orange #FF5B14 (F2-02)
 Contexto: paleta con contraste AA verificado y un acento. | Opciones: A) concreto + naranja señal, B) monocromo estricto, C) tinta + verde ácido | Elegida: A con acento cambiado por Santiago a `#FF5B14` (más eléctrico) | Por qué: el CTA es lo único naranja en pantalla; paleta cálida "de obra", no tech. Reglas: CTA con borde de tinta 2 px sobre fondos claros (naranja/papel 2.7:1); texto del CTA siempre en tinta (6.1:1; blanco solo 3.1:1); errores con ícono + texto; overlay de fotos = tinta 65%. | Tensión: no
 

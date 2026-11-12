@@ -69,7 +69,7 @@ Recommendation: **A** — the CTA is the only orange element on screen (maximum 
 
 ## Grid & spacing
 
-Status: **options proposed (F2-03), awaiting approval.** Figma: `01 Foundations` › "F2 · Grid & spacing (F2-03)" (real Figma layout grids on each frame).
+Status: **A approved (2026-11-12): Swiss 4/12, base-4 spacing; B's hairline column rules allowed only as ornament (spec sheet, Studio timeline).** Figma: `01 Foundations` › "F2 · Grid & spacing (F2-03)" (real Figma layout grids on each frame).
 
 | | A — Swiss 4 / 12 · base 4 ★ | B — Dense modular 6 / 12 · base 8 · visible grid | C — Editorial asymmetric 4 / 16 · base 4 + 8 px baseline |
 |---|---|---|---|
