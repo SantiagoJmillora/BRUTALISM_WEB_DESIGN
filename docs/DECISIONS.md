@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Studio: manifesto + 20-year timeline (F1-06)
+Contexto: página de credibilidad para instituciones/sector público y cara humana del estudio. | Opciones: A) dossier, B) manifiesto + personas, C) línea de tiempo | Elegida: C2 = primera pantalla de B (manifiesto) + C (timeline 2006→2025 con hitos verificados), socios/equipo/clientes como listas de texto | Por qué: Santiago quiere contar los 20 años de trayectoria tras un arranque contundente. | Tensión: sí — premios recientes al final → C: franja "Latest recognition" tras el manifiesto.
+
 ## 2026-11-12 — Project detail: short editorial B2 + B-LIGHT (F1-05)
 Contexto: plantilla de detalle para 8 destacados y 18 de archivo. | Opciones: A) ficha primero, B) historia editorial, C) galería inmersiva | Elegida: B revisada por Santiago → B2 (hero → quote + intro corta → galería protagonista → acordeón de datos → CTA) + B-LIGHT | Por qué: las fotos son lo que más le interesa al cliente; sin textos largos inventados. | Tensión: sí — prueba enterrada en el acordeón → C: franja de 3 datos (ubicación · estado · premio) bajo el hero.
 

@@ -8,7 +8,7 @@
 
 ## ▶ Now
 - **Fase activa:** F1 — Low-fi MOBILE
-- **Siguiente paso exacto:** F1-06 (low-fi Studio / About mobile: 3 opciones) en curso
+- **Siguiente paso exacto:** F1-07 (low-fi Booking mobile: 3 opciones + estados) en curso
 - **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
 - **Pendiente de Santiago:** —
 - **Bloqueos:** —
@@ -35,8 +35,8 @@
 - [x] **F1-03** Low-fi **Home** mobile: 3 opciones. ✅
 - [x] **F1-04** Low-fi **Projects** (listado + filtros) mobile: 3 opciones. ✅
 - [x] **F1-05** Low-fi **Project detail** mobile: 3 opciones. ✅
-- [~] **F1-06** Low-fi **Studio / About** mobile: 3 opciones. ✅
-- [ ] **F1-07** Low-fi **Booking** (pasos + confirmación + estados de error y vacío) mobile: 3 opciones. ✅
+- [x] **F1-06** Low-fi **Studio / About** mobile: 3 opciones. ✅
+- [~] **F1-07** Low-fi **Booking** (pasos + confirmación + estados de error y vacío) mobile: 3 opciones. ✅
 - [ ] **F1-08** Low-fi **Admin** (login, agenda, detalle de cita, disponibilidad) mobile: 2–3 opciones. ✅
 - [ ] **F1-09** Registrar en DECISIONS las opciones elegidas y las descartadas (estas quedan en Figma).
 
@@ -126,3 +126,4 @@
 - 2026-11-12 · F1-03: Home A (Monolith) + tensión hero → C + parallax combinación 2 (P1+P2) en mobile y desktop · Siguiente: F1-04
 - 2026-11-12 · F1-04: Projects A (destacados + tabla de archivo, filtros ?type=) · Siguiente: F1-05
 - 2026-11-12 · F1-05: detalle B2 (editorial corta, galería protagonista) + B-LIGHT + franja de 3 datos (tensión C) · Siguiente: F1-06
+- 2026-11-12 · F1-06: Studio C2 (manifiesto + timeline 20 años) + franja Latest recognition · Siguiente: F1-07

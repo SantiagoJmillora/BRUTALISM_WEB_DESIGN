@@ -94,7 +94,7 @@ Recomendación: C — **approved by Santiago 2026-11-12.**
 
 ## F1-06 · Studio / About (mobile 390 × 844)
 
-Status: **C2 approved (2026-11-12) = B's manifesto first screen + C's timeline; 'latest recognition' strip pending tension decision.** Figma: section "F1 · Studio — Low-fi mobile (F1-06)".
+Status: **C2 approved (2026-11-12) = B's manifesto first screen + C's timeline; tension → C: 'Latest recognition' strip after the manifesto.** Figma: section "F1 · Studio — Low-fi mobile (F1-06)".
 
 | | A — Dossier ★ | B — Manifesto + people | C — Timeline |
 |---|---|---|---|
@@ -113,5 +113,19 @@ Problema: a chronological timeline puts the strongest, most recent proof (WAF 20
 Opción A: pure chronology 2006 → 2025 — costo: latest wins seen only by those who scroll to the end.
 Opción B: reverse chronology 2025 → 2006 — costo: loses the "20-year journey" narrative Santiago wants.
 Opción C: chronology + a one-line "Latest recognition" strip right after the manifesto — costo: the latest awards appear twice.
-Recomendación: C (drawn in C2, pending approval).
+Recomendación: C — **approved by Santiago 2026-11-12.**
 ```
+
+## F1-07 · Booking (mobile 390 × 844)
+
+Status: **options proposed, awaiting approval.** Figma: section "F1 · Booking — Low-fi mobile (F1-07)". Flow A from F1-02 (project → time → details).
+
+| | A — Full-page steps + fixed bottom bar ★ | B — Conversational | C — Summary rail |
+|---|---|---|---|
+| Layout | Progress 1/3 + step name, concept notice line, one big question per step, ≥ 48 px chips/slots, fixed bar (← Back · Continue) | One question per screen, 7 micro-screens, auto-advance | Dark summary rail at top fills in; inline "Next ↓" buttons |
+| UX | + Focus, thumb-zone actions, clear progress. − Bar takes 84 px | + Engaging. − 1/7 feels long; harder to review | + Always see choices. − Rail eats ~96 px; button below fold on step 2 |
+| Conversion | + No nav/footer distractions; summary before submit | + High start. − 7 drop-off points; stretches "≤ 3 steps" | − Primary action hidden on mobile |
+
+States drawn for A: step 1 (type prefilled via `?type=`, stage, message 0/280) · step 2 (14-day strip, 3-col slots, GMT−5, step-1 summary ✎) · step 3 (name, email, summary, "Book consultation") · confirmed (recap, what happens next, .ics, back to projects) · error slot taken (alert + greyed slot, data kept) · validation error (summary + inline, not color-only) · **no times** (pending decision: jump to next available date; if none, honest message + link to Projects).
+
+Recommendation: **A**.
