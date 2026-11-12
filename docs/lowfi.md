@@ -64,7 +64,7 @@ Recommendation: **A** — it is IA option C made literal.
 
 ## F1-05 · Project detail (mobile 390 × 844)
 
-Status: **options proposed, awaiting approval.** Figma: section "F1 · Project detail — Low-fi mobile (F1-05)".
+Status: **B approved and revised as B2 + B-LIGHT (2026-11-12); key-facts strip pending tension decision.** Figma: section "F1 · Project detail — Low-fi mobile (F1-05)".
 
 | | A — Spec sheet first ★ | B — Editorial story | C — Immersive gallery |
 |---|---|---|---|
@@ -75,3 +75,19 @@ Status: **options proposed, awaiting approval.** Figma: section "F1 · Project d
 **A-LIGHT** (18 archive projects, derived from A): ← Projects → name → spec sheet → gallery → CTA. Missing data rows are hidden, never invented.
 
 Recommendation: **A** (+ A-LIGHT).
+
+### B2 — Editorial short (Santiago's revision of B) ★
+Hero full-screen (name, back, 01/08) → **key facts strip** (Location · Status · Award) → pull quote (OPUS public text) → intro ≤ 80 words → **gallery as protagonist** (full-bleed / inset / 2-up, P2, credits) → project-data accordion → CTA with `?type=` → next project.
+No Context/Idea/Result chapters: no invented long copy; the photos tell the story.
+
+### B-LIGHT — archive template
+Shorter hero (55%) → facts strip → optional ≤ 40-word intro (only if OPUS has public text) → gallery → data accordion → CTA. No quote, no next-project loop.
+
+```
+⚠️ TENSIÓN brutalismo vs conversión (B2)
+Problema: with the spec sheet in an accordion, the proof (status, award) disappears from the first scroll — the user sees only photos and a quote before deciding.
+Opción A: pure editorial, everything in the accordion — costo: proof invisible for most users.
+Opción B: full spec sheet open after the intro — costo: breaks the editorial rhythm, a table before the photos.
+Opción C: 3-fact strip under the hero (Location · Status · Award) + full data in the accordion — costo: one extra band in the hero zone.
+Recomendación: C (already drawn in B2/B-LIGHT, pending approval).
+```
