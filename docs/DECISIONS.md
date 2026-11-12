@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Home low-fi mobile: Monolith (F1-03)
+Contexto: 3 conceptos de Home a 390 px. | Opciones: A) Monolith (foto primero, un proyecto por pantalla), B) Index (tipografía primero), C) Chapters (bloques de color + carrusel) | Elegida: A | Por qué: fotos protagonistas, tipografía delante/detrás del edificio (mandato), CTA sticky + prueba social tras el hero. Detalle en `docs/lowfi.md`. | Tensión: sí — contraste del texto sobre foto → C: tratamiento monocromo/oscurecido bajo el texto + CTA sticky desde el primer render.
+
 ## 2026-11-12 — Booking and admin flows (F1-02)
 Contexto: flujo de reserva ≤ 3 pasos y panel de un solo admin, mobile-first. | Opciones booking: A) proyecto primero, B) hora primero, C) página única progresiva · admin: A) lista, B) calendario, C) bandeja + agenda | Elegidas: booking A, admin C; + emails de confirmación y cancelación al usuario; consulta de 30 min | Por qué: A = compromiso progresivo, prefill desde proyecto, métricas por paso, más accesible; C = lo que requiere acción primero, legible en 390 px, slots en bloque, esfuerzo bajo. Detalle en `docs/user-flows.md`. | Tensión: no
 
