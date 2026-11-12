@@ -37,7 +37,7 @@ Recommendation: **A**.
 
 ## Color
 
-Status: **options proposed (F2-02), awaiting approval.** Figma: `01 Foundations` › "F2 · Color (F2-02)". Ratios computed with the WCAG 2.x relative-luminance formula.
+Status: **A approved (2026-11-12) with Santiago's accent change: `#FF5A1F` → `#FF5B14` (more electric/neon). Ratios unchanged: on-accent/accent 6.1:1, accent/paper 2.7:1 (→ 2 px ink border on light), white/accent 3.1:1 (never white text on the CTA).** Figma: `01 Foundations` › "F2 · Color (F2-02)". Ratios computed with the WCAG 2.x relative-luminance formula.
 
 Tokens (all options): `color/ink` · `paper` · `muted` (secondary text on paper) · `concrete` (secondary on ink, decorative borders, disabled) · `accent` · `on-accent` · `error` · `success` · `overlay` (ink at 65% over photos) · `focus` (3 px ring, 2 px offset; ink on light, paper on dark).
 
@@ -47,7 +47,7 @@ Tokens (all options): `color/ink` · `paper` · `muted` (secondary text on paper
 | paper | `#F2F0EB` | `#FFFFFF` | `#EEF0EA` |
 | muted | `#5C5A55` | `#595959` | `#545A55` |
 | concrete | `#C9C6BF` | `#D9D9D9` | `#C5CAC3` |
-| accent | `#FF5A1F` | `#000000` (= ink) | `#C8FF2E` |
+| accent | `#FF5B14` (was `#FF5A1F`) | `#000000` (= ink) | `#C8FF2E` |
 | on-accent | `#111111` | `#FFFFFF` | `#0B0F0C` |
 | error | `#B3001B` | `#C00000` | `#B3261E` |
 | success | `#1E6B34` | `#1A7F37` | `#1E6B3A` |

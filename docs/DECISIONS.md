@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Color: Concrete + Signal Orange #FF5B14 (F2-02)
+Contexto: paleta con contraste AA verificado y un acento. | Opciones: A) concreto + naranja señal, B) monocromo estricto, C) tinta + verde ácido | Elegida: A con acento cambiado por Santiago a `#FF5B14` (más eléctrico) | Por qué: el CTA es lo único naranja en pantalla; paleta cálida "de obra", no tech. Reglas: CTA con borde de tinta 2 px sobre fondos claros (naranja/papel 2.7:1); texto del CTA siempre en tinta (6.1:1; blanco solo 3.1:1); errores con ícono + texto; overlay de fotos = tinta 65%. | Tensión: no
+
 ## 2026-11-12 — Typography: Barlow Condensed + Barlow + IBM Plex Mono (F2-01)
 Contexto: tipografía display + texto + mono para datos, licencia libre web, escala fluida 390→1440. | Opciones: A) Barlow Condensed + Barlow + IBM Plex Mono, B) Anton + Inter + JetBrains Mono, C) Big Shoulders Display + Public Sans + Space Mono | Elegida: A | Por qué: superfamilia coherente con voz cívica/infraestructura; condensada cabe nombres largos a 390 px; cuerpo muy legible para formularios. Costo: Barlow es estática (~5 archivos woff2). Escala de 9 tokens en `docs/design-system.md`. | Tensión: no
 
