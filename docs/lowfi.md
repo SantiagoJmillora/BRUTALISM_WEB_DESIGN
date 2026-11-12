@@ -64,7 +64,7 @@ Recommendation: **A** — it is IA option C made literal.
 
 ## F1-05 · Project detail (mobile 390 × 844)
 
-Status: **B approved and revised as B2 + B-LIGHT (2026-11-12); key-facts strip pending tension decision.** Figma: section "F1 · Project detail — Low-fi mobile (F1-05)".
+Status: **B2 + B-LIGHT approved (2026-11-12); tension → C (3-fact strip under the hero + data accordion).** Figma: section "F1 · Project detail — Low-fi mobile (F1-05)".
 
 | | A — Spec sheet first ★ | B — Editorial story | C — Immersive gallery |
 |---|---|---|---|
@@ -89,5 +89,17 @@ Problema: with the spec sheet in an accordion, the proof (status, award) disappe
 Opción A: pure editorial, everything in the accordion — costo: proof invisible for most users.
 Opción B: full spec sheet open after the intro — costo: breaks the editorial rhythm, a table before the photos.
 Opción C: 3-fact strip under the hero (Location · Status · Award) + full data in the accordion — costo: one extra band in the hero zone.
-Recomendación: C (already drawn in B2/B-LIGHT, pending approval).
+Recomendación: C — **approved by Santiago 2026-11-12.**
 ```
+
+## F1-06 · Studio / About (mobile 390 × 844)
+
+Status: **options proposed, awaiting approval.** Figma: section "F1 · Studio — Low-fi mobile (F1-06)".
+
+| | A — Dossier ★ | B — Manifesto + people | C — Timeline |
+|---|---|---|---|
+| Structure | "Studio" + OPUS tagline → facts grid (2006 · 3 partners · ~17 team · 10+ awards) → disciplines (inverted block) → 3 partners (portrait if public + name + role) → team names (text) → awards table (year · award · project →) → clients as typographic wall (Public / Private / Real estate) → CTA | Giant manifesto with scroll reveal → full-screen partner portraits → team photo grid → awards accordion → client logo marquee → CTA | "Since 2006" → vertical timeline of verified milestones → compact partners/team/clients → CTA |
+| UX | + Scannable credentials, all verifiable, little copy; awards link to projects. − Few images | + Personality, warmth. − Needs ~20 portraits of real people (may not be public); awards hidden | + Clear story. − Depends on dates we can't verify; latest wins at the bottom |
+| Conversion | + Strongest credibility for institutions, public and developers | + Trust through faces. − Proof buried; client logos = trademark risk on an unofficial site | + "Trajectory". − Proof ordered by time, not relevance |
+
+Recommendation: **A**.

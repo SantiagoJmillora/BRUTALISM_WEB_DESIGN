@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Project detail: short editorial B2 + B-LIGHT (F1-05)
+Contexto: plantilla de detalle para 8 destacados y 18 de archivo. | Opciones: A) ficha primero, B) historia editorial, C) galería inmersiva | Elegida: B revisada por Santiago → B2 (hero → quote + intro corta → galería protagonista → acordeón de datos → CTA) + B-LIGHT | Por qué: las fotos son lo que más le interesa al cliente; sin textos largos inventados. | Tensión: sí — prueba enterrada en el acordeón → C: franja de 3 datos (ubicación · estado · premio) bajo el hero.
+
 ## 2026-11-12 — Projects index low-fi: showcase + archive table (F1-04)
 Contexto: listado de 26 proyectos (8 destacados + 18 archivo) en 390 px. | Opciones: A) destacados grandes + tabla de archivo, B) índice numerado único, C) mosaico | Elegida: A | Por qué: materializa la IA híbrida; filtros con las 5 categorías de OPUS en `?type=` (alimenta el prefill del booking); estado vacío con CTA. | Tensión: no
 
