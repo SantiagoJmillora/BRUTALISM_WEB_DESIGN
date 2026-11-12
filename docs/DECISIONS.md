@@ -9,6 +9,12 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — OPUS project images kept local-only for now
+Contexto: 545 imágenes (26 proyectos) descargadas de opusestudio.com para las páginas de proyecto; son © de OPUS y de sus fotógrafos y el repo es público. | Opciones: A) commitearlas al repo público, B) mantenerlas fuera de git (`assets-src/`, gitignored) hasta decidir, C) publicarlas solo en el deploy vía almacenamiento externo | Elegida: B (provisional) | Por qué: no redistribuir material con copyright sin decisión explícita; se resuelve antes de F6-07. | Tensión: sí (pendiente)
+
+## 2026-11-12 — Conversion strategy (F0-07)
+Contexto: definir públicos, propuesta de valor y embudo. | Opciones: booking para todos los segmentos vs. solo privados/desarrolladores | Elegida: booking diseñado para privados + desarrolladores (instituciones caben); el sector público se atiende con prueba social, no con el formulario. Propuesta: "Architecture and landscape, designed as one." Detalle en `docs/conversion-strategy.md`. | Tensión: sí (2, pendientes de decisión)
+
 ## 2026-11-12 — Figma structure in 3 pages, by platform (F0-04)
 Contexto: plan gratuito = máx. 3 páginas; mobile primero, luego desktop; descartes se conservan. | Opciones: A) Por fase: `01 Discovery & Low-fi` · `02 Design System` · `03 Hi-fi & Prototype`; B) Por plataforma: `01 Foundations` (refs + design system) · `02 Mobile` (low-fi→hi-fi→proto en filas) · `03 Desktop`; C) Por estado: `01 Process / Archive` (refs, low-fi, descartes) · `02 System` · `03 Final` (hi-fi aprobado + prototipo, mobile y desktop) | Elegida: B | Por qué: sigue el orden mobile-first; cada vista es una fila (low-fi → discarded → hi-fi → prototype) que cuenta su evolución completa para el caso de estudio; el prototipo vive en la misma página que sus pantallas; ninguna página se satura. | Tensión: no
 

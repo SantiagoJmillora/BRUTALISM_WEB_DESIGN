@@ -35,3 +35,6 @@ Thumbs.db
 # local-only folders (reference images and installers, not repo content)
 Referencias/
 Software/
+
+# third-party project images (OPUS / photographers) — local only until publishing decision
+assets-src/
