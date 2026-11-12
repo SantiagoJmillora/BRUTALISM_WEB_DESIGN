@@ -8,13 +8,14 @@
 
 ## ▶ Now
 - **Fase activa:** F3 — Hi-fi MOBILE
-- **Siguiente paso exacto:** F3-01 Home hi-fi (instancias de componentes + fotos reales OPUS REF #1/#7/#8/#9)
+- **Siguiente paso exacto:** aprobación de F3-02 (Projects hi-fi) → F3-03 Project detail (B2 + B-LIGHT)
 - **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
 - **Pendiente de Santiago:** —
 - **Bloqueos:** —
 
 ## 📥 Inbox (ideas o trabajo nuevo sin clasificar)
-- —
+- Logo OPUS en SVG (vectorizar el webp o pedir el original) antes de F6.
+- Hero WebP con alfa del recorte (≤ 150 KB @ 1200 px) en F6.
 
 ---
 
@@ -49,8 +50,8 @@
 - [x] **F2-06** Componentes base en Figma: botón o CTA (estados), link, input y select (estados y error), card de proyecto, nav, sticky CTA, footer con disclaimer, tag o filtro, slot de horario. ✅
 
 ## F3 — Hi-fi MOBILE
-- [~] **F3-01** Home ✅
-- [ ] **F3-02** Projects ✅
+- [x] **F3-01** Home ✅
+- [~] **F3-02** Projects ✅
 - [ ] **F3-03** Project detail ✅
 - [ ] **F3-04** Studio / About ✅
 - [ ] **F3-05** Booking (todos los estados) ✅
@@ -136,3 +137,4 @@
 - 2026-11-12 · F2-05: 79 variables (6 colecciones) + 20 text styles ligados en Figma; mapping a tokens.css documentado · Siguiente: F2-06
 - 2026-11-12 · F2-06: 80 variantes de componentes aprobadas (foco de inputs 2 px); F2 cerrado · Siguiente: F3-01
 - 2026-11-12 · F3-01: Home hi-fi armado (instancias + fotos reales); hero D2 aprobado (banda tras el edificio, recorte auto-segmentado) · Siguiente: aprobación completa de F3-01 → F3-02
+- 2026-11-12 · F3-01 aprobado; logo OPUS en Nav/Footer; F3-02 Projects hi-fi (All + filtro Housing) con categorías reales de OPUS · Siguiente: aprobación F3-02

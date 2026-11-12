@@ -60,3 +60,16 @@ Physical address (Medellín), landline, WhatsApp, email, newsletter signup, Inst
 | 8 | Hospital Tatamá, Pereira | Claude | Most-awarded recent work (WAF 2024, AR Future Projects 2025, PLAH+ 2023); health typology. Status `[VERIFY]` — awards suggest unbuilt, label it `In design` | `02-tatam` (8) |
 
 Alternative for #8 if a built commercial project is preferred (segment B, developers): Centro Comercial Oviedo (`08-oviedo`, 30 images, photos Juliana Gómez – Bl4ckVisual).
+
+## Project categories (from OPUS's category pages, checked 2026-11-12)
+
+Source: opusestudio.com/vivienda, /education, /espacio-publico, /institucional-y-comercial, /turismo-y-ruralidad (a project can be in several).
+
+| Category (site filter) | Count | Projects |
+|---|---|---|
+| Housing (vivienda) | 8 | Casa La Pausa, Casa GOZU, Lote32, Obra19, Distrito Vera, Parque La Carlota, Plan Bio 2030, Ciudad Santa Bárbara |
+| Culture & education | 8 | Auditorio La Enseñanza, CEFE Las Cometas, MOVA, Planetario, Templo UPB, Forum UdeM, Uninorte, Preescolares Bogotá |
+| Public space | 8 | CEFE Las Cometas, Centro Histórico Barranquilla, Albarrada de Mompox, Parque La Carlota, Parque del Indio, Parque Comfenalco Tolima, Plan Bio 2030, Corredor Verde Cali |
+| Institutional & commercial | 6 | BIO26, NOVA–CELSIA, C.C. Oviedo, Plaza de la Libertad, Hospital Tatamá, Distrito Vera |
+| Tourism & rural | 1 | Albarrada de Mompox |
+| (Discipline) Landscape — /paisaje | 12 | Oviedo, Plaza de la Libertad, CHB, Mompox, La Carlota, Parque del Indio, Parque Tolima, Bio 2030, Santa Bárbara, Corredor Verde Cali |

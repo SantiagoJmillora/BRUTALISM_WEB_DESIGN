@@ -15,3 +15,4 @@
 | `assets-src/opus-projects/14-mompox/01.jpg`, `02.jpg` | Home · featured card Mompox + Landscape chapter (F3-01) | opusestudio.com/mompox-1 | Unknown `[VERIFY]` | |
 | `assets-src/opus-projects/02-tatam/01.jpg` | Home · featured card Hospital Tatamá (F3-01) | opusestudio.com/arqtatam | Unknown `[VERIFY]` (render) | |
 | OPUS REF #3, #6, #8, #10, #11, #15 | Home · featured cards + Architecture chapter (F3-01) | see rows above (Santiago's selection) | see rows above | |
+| `Referencias/Logotipo OPUS.webp` (592×591, white on transparent; trimmed 450×289) | Nav (all variants, 34 px) + Footer (56 px) components | Provided by Santiago (OPUS logo) `[VERIFY origin]` | © OPUS | Raster only → request/trace an SVG before F6 (sharp at any size); used under the concept disclaimer |
