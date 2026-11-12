@@ -8,7 +8,8 @@
 
 ## ▶ Now
 - **Fase activa:** F0 — Setup y discovery
-- **Siguiente paso exacto:** F0-02 (README inicial en inglés con disclaimer)
+- **Siguiente paso exacto:** F0-04 (acceso a Figma por navegador + 3 opciones de organización en 3 páginas) — requiere sesión con Claude in Chrome
+- **Pendiente de Santiago:** OK para `git push -u origin main` (3 commits locales listos)
 - **Bloqueos:** —
 
 ## 📥 Inbox (ideas o trabajo nuevo sin clasificar)
@@ -19,8 +20,8 @@
 ## F0 — Setup y discovery
 - [x] **F0-01** Inicializar el repo en `C:\dev\Proyecto brutalista` y conectarlo a `origin` (BRUTALISM_WEB_DESIGN). Agregar `.gitignore` (Node/Next), `.gitattributes` (`* text=auto eol=lf`), `.nvmrc` (Node LTS actual) y `.claude/settings.json` (sin atribución). Primer commit `chore: initial project setup`.
   - *Acepta:* `git log` sin co-autoría de Claude; el push queda en GitHub.
-- [ ] **F0-02** README inicial (inglés): descripción, disclaimer "Unofficial concept redesign…", estado del proyecto y stack previsto.
-- [ ] **F0-03** Crear la estructura `docs/` con DECISIONS, references, design-system, content-sources, assets-credits y case-study (plantillas vacías).
+- [x] **F0-02** README inicial (inglés): descripción, disclaimer "Unofficial concept redesign…", estado del proyecto y stack previsto.
+- [x] **F0-03** Crear la estructura `docs/` con DECISIONS, references, design-system, content-sources, assets-credits y case-study (plantillas vacías).
 - [ ] **F0-04** Verificar el acceso a Figma por navegador (Claude in Chrome) y proponer **3 opciones** para organizar el trabajo en **3 páginas** (límite del plan gratuito). ✅
 - [ ] **F0-05** Analizar las referencias (ESTRUCTURALES y WEB) **una sola vez** y escribir `docs/references.md`: patrones, layouts, tipografía, motion, qué tomar y qué evitar.
 - [ ] **F0-06** Recoger los hallazgos de la auditoría que Santiago ya hizo de opusestudio.com y complementarlos: problemas de UX y conversión, inventario de contenido (servicios, proyectos, premios, equipo) y tono. Registrar fuentes en `content-sources.md`.
@@ -113,4 +114,4 @@
 ## 🗒 Session log
 <!-- Una línea por sesión: YYYY-MM-DD · qué se hizo · siguiente paso -->
 - 2026-11-12 · Proyecto definido: empresa OPUS, CLAUDE.md y backlog creados · Siguiente: F0-01
-- 2026-11-12 · F0-01: repo inicializado (main), .gitignore, .gitattributes, .nvmrc (Node 24), .claude/settings.json sin atribución; conectado a origin · Siguiente: F0-02
+- 2026-11-12 · F0-01/02/03: repo inicializado (main, Node 24, sin atribución), README con disclaimer, estructura docs/ con plantillas · Siguiente: F0-04 (push pendiente de OK)
