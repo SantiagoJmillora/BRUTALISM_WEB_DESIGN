@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Base components approved; input focus 2 px (F2-06) · Design system closed (F2)
+Contexto: 80 variantes de componentes sobre variables. | Cambio de Santiago: el foco de inputs pasa de borde 3 px + aro a **borde de tinta 2 px sin aro** (menos aparatoso). Botones, chips, links y slots mantienen el aro (2 px papel + 3 px tinta). | Por qué: el foco de campos se veía pesado. Cumple WCAG 2.2 AA (2.4.7 foco visible); si en pruebas el cambio 1→2 px se percibe poco, opción: borde por defecto en `muted`. | Tensión: no
+
 ## 2026-11-12 — Tokens in Figma Variables, responsive split in two collections (F2-05)
 Contexto: el plan gratuito de Figma permite Variables pero solo 1 modo por colección. | Opciones: A) Styles + documentación, B) Variables con colecciones Mobile/Desktop de nombres idénticos, C) un solo set con sufijos -mobile/-desktop | Elegida: B (79 variables en 6 colecciones + 20 text styles con tamaño ligado a variables) | Por qué: mantiene los nombres de §6.2 sin sufijos; en código ambas colapsan en un token fluido con clamp(). | Tensión: no
 

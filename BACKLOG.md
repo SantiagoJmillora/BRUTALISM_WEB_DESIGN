@@ -7,8 +7,8 @@
 ---
 
 ## ▶ Now
-- **Fase activa:** F2 — Design system
-- **Siguiente paso exacto:** F2-06 (componentes base en Figma con estados, usando las variables)
+- **Fase activa:** F3 — Hi-fi MOBILE
+- **Siguiente paso exacto:** F3-01 Home hi-fi (instancias de componentes + fotos reales OPUS REF #1/#7/#8/#9)
 - **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
 - **Pendiente de Santiago:** —
 - **Bloqueos:** —
@@ -46,10 +46,10 @@
 - [x] **F2-03** Grid y espaciado (mobile y desktop): 3 propuestas y la escala de espaciado. ✅
 - [x] **F2-04** Lenguaje de motion: 3 propuestas (duraciones, easings, patrones de parallax y transición) + reglas de reduced-motion. ✅
 - [x] **F2-05** Montar los tokens en Figma (Variables o Styles) y documentarlos en `design-system.md` con la convención de nombres de CLAUDE.md §6.2.
-- [~] **F2-06** Componentes base en Figma: botón o CTA (estados), link, input y select (estados y error), card de proyecto, nav, sticky CTA, footer con disclaimer, tag o filtro, slot de horario. ✅
+- [x] **F2-06** Componentes base en Figma: botón o CTA (estados), link, input y select (estados y error), card de proyecto, nav, sticky CTA, footer con disclaimer, tag o filtro, slot de horario. ✅
 
 ## F3 — Hi-fi MOBILE
-- [ ] **F3-01** Home ✅
+- [~] **F3-01** Home ✅
 - [ ] **F3-02** Projects ✅
 - [ ] **F3-03** Project detail ✅
 - [ ] **F3-04** Studio / About ✅
@@ -134,3 +134,4 @@
 - 2026-11-12 · F2-03: grid A (suizo 4/12, base 4) · Siguiente: F2-04
 - 2026-11-12 · F2-04: motion A (mecánico) · Siguiente: F2-05
 - 2026-11-12 · F2-05: 79 variables (6 colecciones) + 20 text styles ligados en Figma; mapping a tokens.css documentado · Siguiente: F2-06
+- 2026-11-12 · F2-06: 80 variantes de componentes aprobadas (foco de inputs 2 px); F2 cerrado · Siguiente: F3-01
