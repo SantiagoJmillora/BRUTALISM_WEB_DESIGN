@@ -31,7 +31,7 @@ Recomendación: C — consistent with the monochrome direction in references.md.
 
 ### F1-03b · Home A — parallax options
 
-Status: **proposed, awaiting approval.** Figma: section "F1 · Home A — Parallax options (F1-03b)" (half-scale storyboards at 0 / 50 / 100 % scroll).
+Status: **Combination 2 (P1 + P2) approved for mobile AND desktop (2026-11-12).** Figma: section "F1 · Home A — Parallax options (F1-03b)" (half-scale storyboards at 0 / 50 / 100 % scroll).
 Rules for all: `transform`/`opacity` only · native scroll (no scroll-jacking) · `prefers-reduced-motion` → static.
 
 | Technique | What moves | Spec |
@@ -46,3 +46,18 @@ Rules for all: `transform`/`opacity` only · native scroll (no scroll-jacking) �
 | 1 — Subtle | P2 | Safest perf; hero static, mandate has no motion |
 | 2 — Hero depth ★ | P1 + P2 | One clear "wow" in the first scroll, calm afterwards; recommended for mobile |
 | 3 — Full choreography | P1 + P2 + P3 + P4 | Richest; motion fatigue + heavier JS on mobile → reserve for desktop (F5) |
+
+## F1-04 · Projects index (mobile 390 × 844)
+
+Status: **options proposed, awaiting approval.** Figma: section "F1 · Projects — Low-fi mobile (F1-04)".
+
+| | A — Showcase + archive table ★ | B — Single numbered index | C — Mosaic grid |
+|---|---|---|---|
+| Filters | Sticky chips with OPUS's 5 categories (Housing · Culture & education · Public space · Institutional & commercial · Tourism & rural); `?type=` in URL | One "Filter" button → bottom sheet | Discipline tabs (All · Architecture · Landscape) + type dropdown |
+| Featured 8 | Large 4:5 cards + spec row, P2 inner parallax | ★ rows; the row in view expands with a big image | First spans 2 columns |
+| Archive 18 | Dense table (No · Project · City), rows ≥ 48 px | Same list | 2-up grid |
+| End | "Planning something similar?" CTA + empty-filter state with CTA | CTA | CTA |
+| UX | + Clear hierarchy, fast archive. − Two visual languages | + Consistent, short. − Featured loses its stage | + Visual. − Small thumbs, 26 images = heavy |
+| Conversion | + Proof first; `?type=` feeds booking prefill; empty state converts | + Fast to any project. − Weak proof; hidden filter | − Generic, least brutalist; weight hurts speed |
+
+Recommendation: **A** — it is IA option C made literal.

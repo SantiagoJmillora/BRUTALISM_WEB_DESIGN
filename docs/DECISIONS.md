@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Home parallax: hero depth + inner image (F1-03b)
+Contexto: Santiago pidió parallax claro en el low-fi de Home A. | Opciones: 1) Sutil (P2), 2) Hero con profundidad (P1+P2), 3) Coreografía completa (P1–P4) | Elegida: 2 para mobile **y desktop** | Por qué: un solo momento "wow" (letras que se hunden detrás del edificio) y calma después; protege el CTA y el rendimiento. Desktop no escala a la 3 por decisión de Santiago. | Tensión: no
+
 ## 2026-11-12 — Home low-fi mobile: Monolith (F1-03)
 Contexto: 3 conceptos de Home a 390 px. | Opciones: A) Monolith (foto primero, un proyecto por pantalla), B) Index (tipografía primero), C) Chapters (bloques de color + carrusel) | Elegida: A | Por qué: fotos protagonistas, tipografía delante/detrás del edificio (mandato), CTA sticky + prueba social tras el hero. Detalle en `docs/lowfi.md`. | Tensión: sí — contraste del texto sobre foto → C: tratamiento monocromo/oscurecido bajo el texto + CTA sticky desde el primer render.
 
