@@ -37,7 +37,7 @@ Entry (CTA anywhere | project CTA → ?type= prefilled)
 |---|---|
 | Validation error | Inline under the field + error summary at the top of the step with focus moved to it; data is kept |
 | Slot taken meanwhile (race) | On submit, the DB unique constraint rejects → back to step 2 with "That time was just booked — pick another", steps 1/3 kept |
-| No slots in 14 days | Empty state: "No times available right now" + `mailto`-free fallback: leave email to be notified `[decide in F1-07]` |
+| No slots in 14 days | **Decided F1-07:** show "Next available: <date>" + button to jump there; if no future slots at all, honest message ("The studio is opening new times soon") + link to Projects. No email capture. |
 | Rate limit / spam | Generic "Something went wrong, try again in a minute" (never reveal the honeypot) |
 | Server down | Retry button; form data kept in memory |
 

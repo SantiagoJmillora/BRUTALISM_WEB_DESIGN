@@ -118,7 +118,7 @@ Recomendación: C — **approved by Santiago 2026-11-12.**
 
 ## F1-07 · Booking (mobile 390 × 844)
 
-Status: **options proposed, awaiting approval.** Figma: section "F1 · Booking — Low-fi mobile (F1-07)". Flow A from F1-02 (project → time → details).
+Status: **A approved (2026-11-12) incl. no-times solution (next available date; if none, honest message + link to Projects).** Figma: section "F1 · Booking — Low-fi mobile (F1-07)". Flow A from F1-02 (project → time → details).
 
 | | A — Full-page steps + fixed bottom bar ★ | B — Conversational | C — Summary rail |
 |---|---|---|---|
@@ -127,5 +127,21 @@ Status: **options proposed, awaiting approval.** Figma: section "F1 · Booking �
 | Conversion | + No nav/footer distractions; summary before submit | + High start. − 7 drop-off points; stretches "≤ 3 steps" | − Primary action hidden on mobile |
 
 States drawn for A: step 1 (type prefilled via `?type=`, stage, message 0/280) · step 2 (14-day strip, 3-col slots, GMT−5, step-1 summary ✎) · step 3 (name, email, summary, "Book consultation") · confirmed (recap, what happens next, .ics, back to projects) · error slot taken (alert + greyed slot, data kept) · validation error (summary + inline, not color-only) · **no times** (pending decision: jump to next available date; if none, honest message + link to Projects).
+
+Recommendation: **A**.
+
+## F1-08 · Admin (mobile 390 × 844)
+
+Status: **options proposed, awaiting approval.** Figma: section "F1 · Admin — Low-fi mobile (F1-08)". Flow C from F1-02 (inbox + agenda).
+
+| | A — Sections + detail + bottom tabs ★ | B — Tabs + inline actions + week grid | C — Swipe triage |
+|---|---|---|---|
+| Dashboard | "Needs action" (pending, oldest first, badge) then "Upcoming" grouped by day; cancelled behind a link | Segmented tabs Pending · Upcoming · Cancelled; Confirm/Cancel on each card + undo toast | Card stack, swipe right confirm / left cancel, buttons as fallback |
+| Detail | Own page: spec rows, full message, fixed Cancel · Confirm bar; inline confirmation panel with consequences | — (actions on card) | — |
+| Availability | Day list, free slots deletable, booked locked; "Add slots" bulk: date + from–to → 30-min split, live preview, optional "repeat 4 weeks" | Week grid, tap cells to toggle | — |
+| Risk | Lowest: every destructive action confirmed | Mis-taps (undo only); cramped grid | Destructive gesture; poor a11y; hard to e2e test |
+
+Screens drawn for A: login · dashboard · detail · cancel confirmation · availability · add slots (bulk) · empty dashboard (warns when 0 free slots).
+Scope note: "repeat 4 weeks" is a small addition to CLAUDE.md §8.3 (no recurring-rules engine) — needs approval.
 
 Recommendation: **A**.

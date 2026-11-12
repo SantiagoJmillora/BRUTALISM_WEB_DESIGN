@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Booking low-fi: full-page steps + fixed bottom bar (F1-07)
+Contexto: presentación visual del flujo A (proyecto → hora → datos) y sus estados. | Opciones: A) pasos a pantalla completa + barra fija, B) conversacional 7 pantallas, C) rail de resumen | Elegida: A + estado "sin horarios" = saltar a la próxima fecha disponible (o mensaje honesto + link a Projects; sin captura de email) | Por qué: foco, acciones en zona del pulgar, progreso 1/3 claro, todos los estados cubiertos. | Tensión: no
+
 ## 2026-11-12 — Studio: manifesto + 20-year timeline (F1-06)
 Contexto: página de credibilidad para instituciones/sector público y cara humana del estudio. | Opciones: A) dossier, B) manifiesto + personas, C) línea de tiempo | Elegida: C2 = primera pantalla de B (manifiesto) + C (timeline 2006→2025 con hitos verificados), socios/equipo/clientes como listas de texto | Por qué: Santiago quiere contar los 20 años de trayectoria tras un arranque contundente. | Tensión: sí — premios recientes al final → C: franja "Latest recognition" tras el manifiesto.
 
