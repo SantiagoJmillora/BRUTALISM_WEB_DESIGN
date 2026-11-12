@@ -8,9 +8,9 @@
 
 ## ▶ Now
 - **Fase activa:** F0 — Setup y discovery
-- **Siguiente paso exacto:** Santiago decide las 2 tensiones de `docs/conversion-strategy.md` §7 → cerrar F0-07 → F0-08 (selección de 6–8 proyectos destacados; imágenes ya descargadas en `assets-src/opus-projects/`)
+- **Siguiente paso exacto:** F0-08 (selección de 6–8 proyectos destacados con las fotos de `assets-src/opus-projects/`)
 - **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
-- **Pendiente de Santiago:** fuente/fotógrafo de las fotos E1–E5 (home); decidir si las fotos de OPUS se publican en el repo público
+- **Pendiente de Santiago:** las nuevas fotos de OPUS para el hero no aparecen aún en `Referencias ESTRUCTURALES` (¿OneDrive sin sincronizar?)
 - **Bloqueos:** —
 
 ## 📥 Inbox (ideas o trabajo nuevo sin clasificar)
@@ -26,7 +26,7 @@
 - [x] **F0-04** Verificar el acceso a Figma por navegador (Claude in Chrome) y proponer **3 opciones** para organizar el trabajo en **3 páginas** (límite del plan gratuito). ✅
 - [x] **F0-05** Analizar las referencias (ESTRUCTURALES y WEB) **una sola vez** y escribir `docs/references.md`: patrones, layouts, tipografía, motion, qué tomar y qué evitar.
 - [x] **F0-06** Recoger los hallazgos de la auditoría que Santiago ya hizo de opusestudio.com y complementarlos: problemas de UX y conversión, inventario de contenido (servicios, proyectos, premios, equipo) y tono. Registrar fuentes en `content-sources.md`.
-- [~] **F0-07** Estrategia de conversión: públicos objetivo (privados, desarrolladores o constructoras, entidades públicas), propuesta de valor, objeciones y embudo hasta "Book a consultation". ✅
+- [x] **F0-07** Estrategia de conversión: públicos objetivo (privados, desarrolladores o constructoras, entidades públicas), propuesta de valor, objeciones y embudo hasta "Book a consultation". ✅
 - [ ] **F0-08** Selección de proyectos destacados (6–8) con criterio de narrativa y prueba social; Santiago aporta las imágenes y se registran los créditos. ✅
 
 ## F1 — Low-fi MOBILE

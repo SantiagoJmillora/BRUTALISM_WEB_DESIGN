@@ -82,6 +82,8 @@ Implementation: privacy-friendly analytics (e.g. Vercel Analytics custom events)
 
 ## 7. Tensions
 
+**Resolved 2026-11-12 (Santiago): both → Option C.**
+
 ```
 ⚠️ TENSIÓN brutalismo/ética vs conversión
 Problema: the mandatory "Concept project — bookings are not sent to OPUS." notice adds doubt at the moment of commitment.
