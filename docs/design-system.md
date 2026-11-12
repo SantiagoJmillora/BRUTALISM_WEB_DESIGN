@@ -134,3 +134,23 @@ Text styles: `Mobile/<size>` and `Desktop/<size>` for the 9 sizes + `ui-button` 
 - The two responsive collections collapse into **one fluid token** in code: `--font-size-body: clamp(1rem, 0.954rem + 0.19vw, 1.125rem);` (min = Mobile value, max = Desktop value, formula in Typography). Same for `--space-section`.
 - Grid → Tailwind container/grid utilities via `@theme` (`--grid-margin`, `--grid-gutter` as clamp between 16→48 and 16→24).
 - `@media (prefers-reduced-motion: reduce)` overrides `--motion-duration-*` (see Motion).
+
+## Components (F2-06)
+
+Status: **proposed, awaiting approval.** Figma: `01 Foundations` › "F2 · Components (F2-06)" — 80 component variants, fills/strokes bound to color variables, paddings/gaps to space variables, text to `Mobile/*` styles. Radius 0 everywhere.
+
+| Component | Variants | Rules |
+|---|---|---|
+| Button | Type Primary / Secondary / Danger × Surface Light / Dark × State Default / Hover / Pressed / Focus / Disabled | Primary = CTA: accent fill, ink text, 2 px ink border on light; hover swaps to ink (light) / paper (dark); pressed shifts 4 px; disabled concrete + muted. Danger = admin destructive (error fill, paper text) |
+| Focus (all) | — | `box-shadow: 0 0 0 2px paper, 0 0 0 5px ink` (inverted on dark) |
+| Link | Default / Hover / Focus | Always underlined; hover = ink highlight + paper text |
+| Input | Kind Text / Select / Textarea × Default / Focus / Filled / Error / Disabled | Label always visible; 52 px field; 16 px text; error = 2 px error border + "⚠" + message; textarea counter 0/280 |
+| Chip | Size Filter (44 px) / Choice (48 px) × Default / Hover / Selected / Focus / Disabled | Selected = ink fill + paper text |
+| Slot | Time (Default / Hover / Selected / Focus / Taken) · Day (Default / Selected / Focus / Empty) | Taken = concrete + muted + strikethrough, not focusable |
+| Spec row | Surface Light / Dark | Mono caption label + semibold value on a 1 px rule |
+| Alert | Error summary / Slot taken / Success toast | aria-live; icon + text |
+| Concept notice | — | "Concept project — bookings are not sent to OPUS." (§11) |
+| Project card | Featured (4:5 image, No, heading-2 name, caption spec) / Archive row (≥ 48 px) × Default / Hover / Focus | Whole card/row is one link |
+| Nav | Surface Light / Dark × Menu Closed / Open | 56 px bar; menu items heading-1; "Book a consultation" in accent on ink (6.1:1) |
+| Sticky CTA | — | Instance of Primary Button, 16 px insets |
+| Footer | — | Heading + dark CTA + 3 links + disclaimer + photo credits |
