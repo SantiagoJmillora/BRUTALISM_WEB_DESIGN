@@ -94,7 +94,7 @@ Recomendación: C — **approved by Santiago 2026-11-12.**
 
 ## F1-06 · Studio / About (mobile 390 × 844)
 
-Status: **options proposed, awaiting approval.** Figma: section "F1 · Studio — Low-fi mobile (F1-06)".
+Status: **C2 approved (2026-11-12) = B's manifesto first screen + C's timeline; 'latest recognition' strip pending tension decision.** Figma: section "F1 · Studio — Low-fi mobile (F1-06)".
 
 | | A — Dossier ★ | B — Manifesto + people | C — Timeline |
 |---|---|---|---|
@@ -103,3 +103,15 @@ Status: **options proposed, awaiting approval.** Figma: section "F1 · Studio �
 | Conversion | + Strongest credibility for institutions, public and developers | + Trust through faces. − Proof buried; client logos = trademark risk on an unofficial site | + "Trajectory". − Proof ordered by time, not relevance |
 
 Recommendation: **A**.
+
+### C2 — Manifesto + timeline (Santiago's merge of B + C) ★
+Manifesto screen ("WE DESIGN THE BUILDING AND THE PLACE AROUND IT." — concept copy, value proposition #2, not attributed to OPUS) → *latest recognition* strip → "Since 2006" timeline with verified milestones only (2006 founding · 2016 Karl Brunner · 2018 BLAP + Quito · 2019 Harvard GSD · 2023 CEMEX + PLAH+ · 2024 WAF + IAA · 2025 AR + ArchDaily finalist), milestones link to projects; spine draws on scroll → partners · team · clients as text lists → "Your project could be next." CTA.
+
+```
+⚠️ TENSIÓN brutalismo vs conversión (C2)
+Problema: a chronological timeline puts the strongest, most recent proof (WAF 2024, 2025 awards) at the bottom of the story.
+Opción A: pure chronology 2006 → 2025 — costo: latest wins seen only by those who scroll to the end.
+Opción B: reverse chronology 2025 → 2006 — costo: loses the "20-year journey" narrative Santiago wants.
+Opción C: chronology + a one-line "Latest recognition" strip right after the manifesto — costo: the latest awards appear twice.
+Recomendación: C (drawn in C2, pending approval).
+```
