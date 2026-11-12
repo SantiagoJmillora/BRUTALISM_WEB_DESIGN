@@ -8,7 +8,7 @@
 
 ## ▶ Now
 - **Fase activa:** F2 — Design system
-- **Siguiente paso exacto:** F2-05 (tokens en Figma Variables/Styles + design-system.md) en curso
+- **Siguiente paso exacto:** F2-06 (componentes base en Figma con estados, usando las variables)
 - **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
 - **Pendiente de Santiago:** —
 - **Bloqueos:** —
@@ -45,8 +45,8 @@
 - [x] **F2-02** Color: 3 paletas con ratios de contraste AA documentados. ✅
 - [x] **F2-03** Grid y espaciado (mobile y desktop): 3 propuestas y la escala de espaciado. ✅
 - [x] **F2-04** Lenguaje de motion: 3 propuestas (duraciones, easings, patrones de parallax y transición) + reglas de reduced-motion. ✅
-- [~] **F2-05** Montar los tokens en Figma (Variables o Styles) y documentarlos en `design-system.md` con la convención de nombres de CLAUDE.md §6.2.
-- [ ] **F2-06** Componentes base en Figma: botón o CTA (estados), link, input y select (estados y error), card de proyecto, nav, sticky CTA, footer con disclaimer, tag o filtro, slot de horario. ✅
+- [x] **F2-05** Montar los tokens en Figma (Variables o Styles) y documentarlos en `design-system.md` con la convención de nombres de CLAUDE.md §6.2.
+- [~] **F2-06** Componentes base en Figma: botón o CTA (estados), link, input y select (estados y error), card de proyecto, nav, sticky CTA, footer con disclaimer, tag o filtro, slot de horario. ✅
 
 ## F3 — Hi-fi MOBILE
 - [ ] **F3-01** Home ✅
@@ -133,3 +133,4 @@
 - 2026-11-12 · F2-02: color A con acento #FF5B14 (borde de tinta en claro, overlay 65%) · Siguiente: F2-03
 - 2026-11-12 · F2-03: grid A (suizo 4/12, base 4) · Siguiente: F2-04
 - 2026-11-12 · F2-04: motion A (mecánico) · Siguiente: F2-05
+- 2026-11-12 · F2-05: 79 variables (6 colecciones) + 20 text styles ligados en Figma; mapping a tokens.css documentado · Siguiente: F2-06

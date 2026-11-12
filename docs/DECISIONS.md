@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Tokens in Figma Variables, responsive split in two collections (F2-05)
+Contexto: el plan gratuito de Figma permite Variables pero solo 1 modo por colección. | Opciones: A) Styles + documentación, B) Variables con colecciones Mobile/Desktop de nombres idénticos, C) un solo set con sufijos -mobile/-desktop | Elegida: B (79 variables en 6 colecciones + 20 text styles con tamaño ligado a variables) | Por qué: mantiene los nombres de §6.2 sin sufijos; en código ambas colapsan en un token fluido con clamp(). | Tensión: no
+
 ## 2026-11-12 — Motion: Mechanical / hard cuts (F2-04)
 Contexto: lenguaje de movimiento coherente con brutalismo y rendimiento. | Opciones: A) mecánico (100/200/400/700 ms, cortes secos), B) masa pesada (200–1400 ms), C) editorial calmo (fades) | Elegida: A | Por qué: el parallax P1+P2 ya da el momento cinematográfico; el resto debe sentirse instantáneo (INP percibido, CTA responde al instante). Reglas de reduced-motion en `docs/design-system.md`. | Tensión: no
 

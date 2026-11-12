@@ -3,7 +3,7 @@
 > Tokens and rules. Source of truth in code: `src/styles/tokens.css` (exposed to Tailwind via `@theme`).
 > Naming: kebab-case in code (`--color-ink`), `/` in Figma (`color/ink`). No loose hex/px values in components.
 
-_Pending — to be filled during phase F2 after Santiago approves the options._
+Status: **F2-01…F2-04 approved; tokens set up in Figma (F2-05).**
 
 ## Typography
 
@@ -116,4 +116,21 @@ Recommendation: **A** — the approved parallax provides the cinematic moment; t
 
 ## Tokens
 
-_Pending (F2-05)._
+Figma: **Variables** (free plan = 1 mode per collection) + **Text styles**. Sheet: `01 Foundations` › "F2 · Tokens (F2-05)" (color swatches bound to variables). Every variable has WEB code syntax `var(--<name with / → ->)`.
+
+| Collection | Variables | Notes |
+|---|---|---|
+| Color | `color/ink · paper · muted · concrete · accent · on-accent · error · success · focus · overlay` | overlay = ink @ 65% alpha |
+| Space | `space/0…48` (N × 4 px) · `radius/none` · `border/width/hairline (1) · default (2) · focus (3)` · `focus/offset (2)` · `touch/min (44)` | brutalist: radius always 0 |
+| Type | `font/family/display · heading · text · mono` · `font/weight/display (900) · heading (700) · text (400) · text-strong (600) · mono (400)` · `font/line-height/display (86%) · heading (95%) · text (150%) · mono (140%)` · `font/letter-spacing/display (−1.5%)` | |
+| Responsive · Mobile 390 | `font/size/display-xl … caption` (mobile values) · `grid/columns (4) · margin (16) · gutter (16)` · `space/section (64)` | same names in both collections |
+| Responsive · Desktop 1440 | same names, desktop values (`grid` 12 / 48 / 24, `space/section` 160) | |
+| Motion | `motion/duration/fast (100) · base (200) · slow (400) · xslow (700)` · `motion/easing/standard · enter · exit` · `motion/stagger/line (60)` · `motion/parallax/photo (0.7) · type (0.45)` · `motion/overlay/opacity (65)` | |
+
+Text styles: `Mobile/<size>` and `Desktop/<size>` for the 9 sizes + `ui-button` (Barlow SemiBold), font size **bound** to the matching variable.
+
+### Mapping to code (`src/styles/tokens.css`, built in F6-02)
+- Colors, space, radius, borders, families, weights, line-heights, motion → 1:1 CSS custom properties (`--color-accent: #FF5B14;`, `--space-4: 1rem;` …).
+- The two responsive collections collapse into **one fluid token** in code: `--font-size-body: clamp(1rem, 0.954rem + 0.19vw, 1.125rem);` (min = Mobile value, max = Desktop value, formula in Typography). Same for `--space-section`.
+- Grid → Tailwind container/grid utilities via `@theme` (`--grid-margin`, `--grid-gutter` as clamp between 16→48 and 16→24).
+- `@media (prefers-reduced-motion: reduce)` overrides `--motion-duration-*` (see Motion).
