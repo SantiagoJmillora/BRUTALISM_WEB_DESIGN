@@ -44,6 +44,10 @@
 5. **Showcase syndrome:** W1 and W2 have **no CTA at all** — they're portfolio art. Our version keeps one dominant `Book a consultation` per view; the accent color belongs to the CTA first, decoration second.
 6. Walls of tiny caption text (W3, W4): keep microcopy short and readable.
 
+## Owner mandate (Santiago, 2026-11-12)
+
+Big display letters that pass **in front of and behind** the structures (type/photo interleaving — the W4 pattern, promoted from "static asset only" to a core identity element; implementation cost must be solved, e.g. pre-cut PNG/SVG layers or CSS masks, keeping LCP safe). Santiago will add screenshots of OPUS's own projects to `Referencias/Referencias ESTRUCTURALES` so the direction is tested with their real work.
+
 ## Direction synthesis (for low-fi and the design system)
 
 Editorial-brutalist hybrid: Swiss grid discipline (W2) + oversized interlocking type (W1) + monochrome photography with one accent color (W4) + spec-sheet data rawness (W1/W2), over an architectural mood of mass, texture and negative space (E1–E4), with E5 anchoring the concrete-meets-landscape story that is uniquely OPUS. The accent color is the conversion channel: CTA always wins the loudness contest.
