@@ -37,7 +37,35 @@ Recommendation: **A**.
 
 ## Color
 
-_Pending (F2-02). Include AA contrast ratios._
+Status: **options proposed (F2-02), awaiting approval.** Figma: `01 Foundations` › "F2 · Color (F2-02)". Ratios computed with the WCAG 2.x relative-luminance formula.
+
+Tokens (all options): `color/ink` · `paper` · `muted` (secondary text on paper) · `concrete` (secondary on ink, decorative borders, disabled) · `accent` · `on-accent` · `error` · `success` · `overlay` (ink at 65% over photos) · `focus` (3 px ring, 2 px offset; ink on light, paper on dark).
+
+| Token | A — Concrete + Signal Orange ★ | B — Strict monochrome | C — Ink + Acid Green |
+|---|---|---|---|
+| ink | `#111111` | `#000000` | `#0B0F0C` |
+| paper | `#F2F0EB` | `#FFFFFF` | `#EEF0EA` |
+| muted | `#5C5A55` | `#595959` | `#545A55` |
+| concrete | `#C9C6BF` | `#D9D9D9` | `#C5CAC3` |
+| accent | `#FF5A1F` | `#000000` (= ink) | `#C8FF2E` |
+| on-accent | `#111111` | `#FFFFFF` | `#0B0F0C` |
+| error | `#B3001B` | `#C00000` | `#B3261E` |
+| success | `#1E6B34` | `#1A7F37` | `#1E6B3A` |
+
+| Pair | A | B | C |
+|---|---|---|---|
+| ink / paper | 16.6 ✓ | 21.0 ✓ | 16.8 ✓ |
+| muted / paper | 6.1 ✓ | 7.0 ✓ | 6.2 ✓ |
+| on-accent / accent (CTA text) | 6.1 ✓ | 21.0 ✓ | 16.4 ✓ |
+| accent / ink (CTA on dark) | 6.1 ✓ | 1.0 ✗ (CTA inverts to paper) | 16.4 ✓ |
+| accent / paper (CTA edge, needs 3:1) | 2.7 ✗ → 2 px ink border | 21.0 ✓ | 1.0 ✗ → ink border / ink surface |
+| error / paper | 6.3 ✓ | 6.5 ✓ | 5.7 ✓ |
+| success / paper | 5.8 ✓ | 5.1 ✓ | 5.7 ✓ |
+| paper / overlay (ink 65% over pure white) | ≥ 4.5 ✓ | ≥ 4.5 ✓ | ≥ 4.5 ✓ |
+
+Overlay: ink 55% is enough for display text (large, 3:1) but body text over photos needs ≥ 60–65% → token fixed at 65%.
+
+Recommendation: **A** — the CTA is the only orange element on screen (maximum salience); rule: CTA on light surfaces gets a 2 px ink border; errors always icon + text (orange ≈ red family).
 
 ## Grid & spacing
 
