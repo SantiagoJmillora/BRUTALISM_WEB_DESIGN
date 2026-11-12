@@ -86,7 +86,33 @@ Recommendation: **A**, borrowing B's hairline column rules only as ornament in s
 
 ## Motion
 
-_Pending (F2-04). Include reduced-motion rules._
+Status: **options proposed (F2-04), awaiting approval.** Figma: `01 Foundations` › "F2 · Motion (F2-04)". Fixed for all options: parallax P1 + P2 (approved F1-03b), `transform`/`opacity` only, native scroll, `gsap.context()` + `revert()` on unmount.
+
+| Token | A — Mechanical ★ | B — Heavy mass | C — Editorial calm |
+|---|---|---|---|
+| duration/fast | 100 ms | 200 ms | 150 ms |
+| duration/base | 200 ms | 450 ms | 300 ms |
+| duration/slow | 400 ms | 900 ms | 600 ms |
+| duration/xslow | 700 ms | 1400 ms | 900 ms |
+| easing/standard | `cubic-bezier(0.7, 0, 0.3, 1)` | `cubic-bezier(0.16, 1, 0.3, 1)` | `cubic-bezier(0.2, 0, 0, 1)` |
+| easing/enter | `cubic-bezier(0.2, 0.9, 0.3, 1)` | `cubic-bezier(0.22, 1, 0.36, 1)` | `cubic-bezier(0, 0, 0.2, 1)` |
+| easing/exit | `cubic-bezier(0.7, 0, 1, 0.5)` | `cubic-bezier(0.64, 0, 0.78, 0)` | `cubic-bezier(0.4, 0, 1, 1)` |
+| CTA hover / press | Instant color swap to ink · press shifts 4 px (100 ms) | Lift 4 px + shadow (450 ms) | Opacity 0.85 (150 ms) |
+| Headline reveal | Lines slide up from a mask, 400 ms, 60 ms stagger | Rise 40 px + fade, 900 ms, 120 ms stagger | Fade + rise 16 px, 600 ms |
+| Image reveal | Ink block wipes off (scaleX), 400 ms | Ink curtain lifts (scaleY), 900 ms | Fade in, 600 ms |
+| Page transition | Ink panel cover/uncover ≤ 450 ms total | Full curtain 700 + 700 ms | Crossfade 300 ms |
+| UX | + Fast, decisive, good INP perception. − Abrupt if overused | + Cinematic. − Sluggish when repeated; delays content | + Safe. − Generic, least brutalist |
+| Conversion | + CTA reacts instantly; nothing delays reading/tapping | − Users wait 0.9–1.4 s for content/CTA | Neutral |
+
+### prefers-reduced-motion: reduce (all options)
+- No parallax (P1/P2 static) and no Lenis — native scroll only.
+- No translate/scale animations: reveals are instant or an opacity fade ≤ 150 ms.
+- Page transitions: instant swap.
+- Hover/focus state changes keep working (state, not motion).
+- Studio timeline spine drawn fully from the start.
+- Implementation: one `useReducedMotion()` hook + `@media (prefers-reduced-motion: reduce)` zeroing `--motion-duration-*` (except `fast` for fades).
+
+Recommendation: **A** — the approved parallax provides the cinematic moment; the rest of the UI stays instant and decisive.
 
 ## Tokens
 
