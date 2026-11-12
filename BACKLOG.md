@@ -8,7 +8,7 @@
 
 ## ▶ Now
 - **Fase activa:** F1 — Low-fi MOBILE
-- **Siguiente paso exacto:** F1-02 (user flow del booking ≤ 3 pasos y del panel de admin: 2–3 opciones)
+- **Siguiente paso exacto:** F1-03 (low-fi Home mobile 390×844: 3 opciones, en `02 Mobile` como fila "Home")
 - **Figma:** archivo "Campo de prueba" con páginas `01 Foundations` · `02 Mobile` · `03 Desktop` (Chrome conectado y funcionando). Las secciones se crean al empezar cada fase.
 - **Pendiente de Santiago:** —
 - **Bloqueos:** —
@@ -31,7 +31,7 @@
 
 ## F1 — Low-fi MOBILE
 - [x] **F1-01** Arquitectura de información y sitemap: 3 opciones (p. ej. one-page larga vs. multipágina vs. híbrida). ✅
-- [ ] **F1-02** User flow del booking (≤ 3 pasos) y del panel de admin: 2–3 opciones. ✅
+- [x] **F1-02** User flow del booking (≤ 3 pasos) y del panel de admin: 2–3 opciones. ✅
 - [ ] **F1-03** Low-fi **Home** mobile: 3 opciones. ✅
 - [ ] **F1-04** Low-fi **Projects** (listado + filtros) mobile: 3 opciones. ✅
 - [ ] **F1-05** Low-fi **Project detail** mobile: 3 opciones. ✅
@@ -122,3 +122,4 @@
 - 2026-11-12 · F0-07 redactado (docs/conversion-strategy.md, 2 tensiones pendientes); 545 imágenes de 26 proyectos descargadas de opusestudio.com a assets-src/ (gitignored) con manifest; fotos E1–E5 registradas como candidatas al hero · Siguiente: tensiones F0-07 → F0-08
 - 2026-11-12 · F0-07 cerrado (tensiones → C); F0-08: 8 destacados (6 de Santiago + Mompox y Tatamá); hero = OPUS REF #1, #7, #8, #9 · Siguiente: F1-01
 - 2026-11-12 · F1-01: IA híbrida (C) aprobada; 3 sitemaps dibujados en Figma `02 Mobile` › sección "F1 · IA — Sitemaps (F1-01)" vía Plugin API desde Chrome · Siguiente: F1-02
+- 2026-11-12 · F1-02: booking A (proyecto primero) + admin C (bandeja + agenda) + emails de confirmar/cancelar + consulta de 30 min; flujos dibujados en Figma `02 Mobile` › "F1 · Flows — Booking & Admin (F1-02)" · Siguiente: F1-03

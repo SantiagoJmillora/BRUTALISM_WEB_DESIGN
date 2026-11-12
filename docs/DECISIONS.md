@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Booking and admin flows (F1-02)
+Contexto: flujo de reserva ≤ 3 pasos y panel de un solo admin, mobile-first. | Opciones booking: A) proyecto primero, B) hora primero, C) página única progresiva · admin: A) lista, B) calendario, C) bandeja + agenda | Elegidas: booking A, admin C; + emails de confirmación y cancelación al usuario; consulta de 30 min | Por qué: A = compromiso progresivo, prefill desde proyecto, métricas por paso, más accesible; C = lo que requiere acción primero, legible en 390 px, slots en bloque, esfuerzo bajo. Detalle en `docs/user-flows.md`. | Tensión: no
+
 ## 2026-11-12 — Information architecture: hybrid (F1-01)
 Contexto: sitemap mobile-first con 26 proyectos (8 destacados). | Opciones: A) one-page narrativa, B) multipágina clásica, C) híbrida | Elegida: C | Por qué: Home narrativa con prueba social a un scroll del CTA; nav de 3 ítems (Projects · Studio · Book); 8 detalles completos + 18 ligeros en un archivo filtrable; `/book` dedicado con prefill desde proyecto. Detalle en `docs/information-architecture.md`. | Tensión: no
 
