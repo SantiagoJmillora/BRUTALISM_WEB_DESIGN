@@ -8,8 +8,8 @@
 
 ## ▶ Now
 - **Fase activa:** F0 — Setup y discovery
-- **Siguiente paso exacto:** F0-04 (acceso a Figma por navegador + 3 opciones de organización en 3 páginas) — requiere sesión con Claude in Chrome
-- **Pendiente de Santiago:** OK para `git push -u origin main` (3 commits locales listos)
+- **Siguiente paso exacto:** F0-04 (Figma por navegador, 3 opciones de organización) — requiere sesión con Claude in Chrome. Alternativa sin navegador: F0-06 (Santiago comparte su auditoría de opusestudio.com)
+- **Bloqueos:** —
 - **Bloqueos:** —
 
 ## 📥 Inbox (ideas o trabajo nuevo sin clasificar)
@@ -23,7 +23,7 @@
 - [x] **F0-02** README inicial (inglés): descripción, disclaimer "Unofficial concept redesign…", estado del proyecto y stack previsto.
 - [x] **F0-03** Crear la estructura `docs/` con DECISIONS, references, design-system, content-sources, assets-credits y case-study (plantillas vacías).
 - [ ] **F0-04** Verificar el acceso a Figma por navegador (Claude in Chrome) y proponer **3 opciones** para organizar el trabajo en **3 páginas** (límite del plan gratuito). ✅
-- [ ] **F0-05** Analizar las referencias (ESTRUCTURALES y WEB) **una sola vez** y escribir `docs/references.md`: patrones, layouts, tipografía, motion, qué tomar y qué evitar.
+- [x] **F0-05** Analizar las referencias (ESTRUCTURALES y WEB) **una sola vez** y escribir `docs/references.md`: patrones, layouts, tipografía, motion, qué tomar y qué evitar.
 - [ ] **F0-06** Recoger los hallazgos de la auditoría que Santiago ya hizo de opusestudio.com y complementarlos: problemas de UX y conversión, inventario de contenido (servicios, proyectos, premios, equipo) y tono. Registrar fuentes en `content-sources.md`.
 - [ ] **F0-07** Estrategia de conversión: públicos objetivo (privados, desarrolladores o constructoras, entidades públicas), propuesta de valor, objeciones y embudo hasta "Book a consultation". ✅
 - [ ] **F0-08** Selección de proyectos destacados (6–8) con criterio de narrativa y prueba social; Santiago aporta las imágenes y se registran los créditos. ✅
@@ -115,3 +115,4 @@
 <!-- Una línea por sesión: YYYY-MM-DD · qué se hizo · siguiente paso -->
 - 2026-11-12 · Proyecto definido: empresa OPUS, CLAUDE.md y backlog creados · Siguiente: F0-01
 - 2026-11-12 · F0-01/02/03: repo inicializado (main, Node 24, sin atribución), README con disclaimer, estructura docs/ con plantillas · Siguiente: F0-04 (push pendiente de OK)
+- 2026-11-12 · F0-05: 9 referencias analizadas y resumidas en docs/references.md (dirección: editorial-brutalista, foto monocroma + 1 acento reservado al CTA) · Siguiente: F0-04 o F0-06
