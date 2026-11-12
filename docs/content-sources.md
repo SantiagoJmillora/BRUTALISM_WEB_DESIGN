@@ -72,4 +72,4 @@ Source: opusestudio.com/vivienda, /education, /espacio-publico, /institucional-y
 | Public space | 8 | CEFE Las Cometas, Centro Histórico Barranquilla, Albarrada de Mompox, Parque La Carlota, Parque del Indio, Parque Comfenalco Tolima, Plan Bio 2030, Corredor Verde Cali |
 | Institutional & commercial | 6 | BIO26, NOVA–CELSIA, C.C. Oviedo, Plaza de la Libertad, Hospital Tatamá, Distrito Vera |
 | Tourism & rural | 1 | Albarrada de Mompox |
-| (Discipline) Landscape — /paisaje | 12 | Oviedo, Plaza de la Libertad, CHB, Mompox, La Carlota, Parque del Indio, Parque Tolima, Bio 2030, Santa Bárbara, Corredor Verde Cali |
+| (Discipline) Landscape — /paisaje | 10 | Oviedo, Plaza de la Libertad, CHB, Mompox, La Carlota, Parque del Indio, Parque Tolima, Bio 2030, Santa Bárbara, Corredor Verde Cali |
