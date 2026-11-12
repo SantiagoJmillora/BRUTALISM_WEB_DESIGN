@@ -49,17 +49,19 @@ Cada propuesta de diseño incluye una línea de **UX** y una de **Conversión**.
 ## 3. Recursos
 
 ### 3.1 Figma
-- **Archivo:** https://www.figma.com/design/UFF7zUSZmyhzJpxi3ZLM1s/TEST?node-id=2031-65
+- **Archivo:** https://www.figma.com/design/UFF7zUSZmyhzJpxi3ZLM1s/TEST?node-id=2031-65 (renombrado "Campo de prueba"). Páginas: `01 Foundations` (referencias, design system y `Archive · …` con lo descartado) · `02 Mobile` (solo lo aprobado) · `03 Desktop`.
 - **Plan gratuito → máximo 3 páginas.** La primera tarea de diseño es proponer cómo organizar todo (referencias, low-fi, sistema de diseño, hi-fi, prototipo) dentro de 3 páginas, usando secciones y frames con nombres claros. Dar opciones y esperar aprobación.
 - **Acceso:** preferir el **navegador** (Claude in Chrome, sesión iniciada por Santiago) para no gastar llamadas del conector de Figma. Usar el MCP de Figma solo si Santiago lo aprueba para una tarea concreta, y agrupar las llamadas.
 - **Nunca** pedir ni escribir contraseñas. Si hace falta iniciar sesión, Santiago lo hace.
 - Las opciones descartadas **no se borran**: quedan en Figma como registro del proceso (sirven para el caso de estudio).
 - Frames base: **mobile 390 × 844** (diseñar aquí primero); desktop **1440 × 900** (después).
 
-### 3.2 Referencias (en el PC, dentro de OneDrive)
-- `C:\Users\zyroc\OneDrive\Escritorio\Proyecto brutalista\Referencias\Referencias ESTRUCTURALES`
-- `C:\Users\zyroc\OneDrive\Escritorio\Proyecto brutalista\Referencias\Referencias WEB`
-- Si un archivo no se puede leer, probablemente es "solo en línea" de OneDrive. Pídele a Santiago que use *Always keep on this device* en esa carpeta.
+### 3.2 Referencias (en el PC, dentro del repo, ignoradas por git)
+- `C:\dev\Proyecto brutalista\Referencias\Referencias ESTRUCTURALES` — fotos de OPUS seleccionadas por Santiago (`OPUS REF #1–#17`, webp). Hero del Home: #1, #7, #8, #9.
+- `C:\dev\Proyecto brutalista\Referencias\Referencias WEB`
+- Imágenes de proyectos descargadas de opusestudio.com: `C:\dev\Proyecto brutalista\assets-src\opus-projects\` (gitignored, con `manifest.json` de fuentes y créditos).
+- Estas carpetas no se sincronizan entre PCs: en el otro PC hay que copiarlas (o volver a correr la descarga).
+- La antigua carpeta de OneDrive (`C:\Users\zyroc\OneDrive\Escritorio\Proyecto brutalista\Referencias`) solo tiene imágenes de mood de Pinterest ya resumidas en `docs/references.md`; no se usa.
 - Analízalas **una sola vez** y resume en `docs/references.md` (ver §7).
 
 ### 3.3 Contenido e imágenes
