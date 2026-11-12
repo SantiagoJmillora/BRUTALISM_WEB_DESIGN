@@ -49,7 +49,7 @@ Rules for all: `transform`/`opacity` only · native scroll (no scroll-jacking) �
 
 ## F1-04 · Projects index (mobile 390 × 844)
 
-Status: **options proposed, awaiting approval.** Figma: section "F1 · Projects — Low-fi mobile (F1-04)".
+Status: **A approved (2026-11-12).** Figma: section "F1 · Projects — Low-fi mobile (F1-04)".
 
 | | A — Showcase + archive table ★ | B — Single numbered index | C — Mosaic grid |
 |---|---|---|---|
@@ -61,3 +61,17 @@ Status: **options proposed, awaiting approval.** Figma: section "F1 · Projects 
 | Conversion | + Proof first; `?type=` feeds booking prefill; empty state converts | + Fast to any project. − Weak proof; hidden filter | − Generic, least brutalist; weight hurts speed |
 
 Recommendation: **A** — it is IA option C made literal.
+
+## F1-05 · Project detail (mobile 390 × 844)
+
+Status: **options proposed, awaiting approval.** Figma: section "F1 · Project detail — Low-fi mobile (F1-05)".
+
+| | A — Spec sheet first ★ | B — Editorial story | C — Immersive gallery |
+|---|---|---|---|
+| Structure | ← Projects · 01/08 → hero with giant name (darkened photo) → **spec sheet** → award block → 1 statement + ≤120 words → gallery (full-bleed / inset / 2-up, credits) → CTA with prefill → next project | Full-screen hero → pull quote → chapters Context · Idea · Result → spec sheet in an accordion → CTA | Full-screen scroll-snap images + bottom drawer (name, data, CTA; pull up for info) |
+| UX | + Facts in the first scroll; same frame for all 8; easy to fill with verified data. − Less narrative | + Magazine reading. − Needs ~400 words/project we don't have (risk of invented copy); facts hidden | + Max photo impact. − Drawer gestures hurt keyboard/screen-reader use; scroll-snap can feel hijacked on iOS |
+| Conversion | + Proof (spec + award) before the story; contextual CTA with `?type=`; next-project loop | − Proof and CTA at the very end | + CTA always in the drawer. − Little context; 21 full-screen images = heavy |
+
+**A-LIGHT** (18 archive projects, derived from A): ← Projects → name → spec sheet → gallery → CTA. Missing data rows are hidden, never invented.
+
+Recommendation: **A** (+ A-LIGHT).

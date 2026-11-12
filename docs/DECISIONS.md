@@ -9,6 +9,9 @@
 > Contexto: ... | Opciones: A, B, C | Elegida: B | Por qué: ... | Tensión: sí/no
 > ```
 
+## 2026-11-12 — Projects index low-fi: showcase + archive table (F1-04)
+Contexto: listado de 26 proyectos (8 destacados + 18 archivo) en 390 px. | Opciones: A) destacados grandes + tabla de archivo, B) índice numerado único, C) mosaico | Elegida: A | Por qué: materializa la IA híbrida; filtros con las 5 categorías de OPUS en `?type=` (alimenta el prefill del booking); estado vacío con CTA. | Tensión: no
+
 ## 2026-11-12 — Home parallax: hero depth + inner image (F1-03b)
 Contexto: Santiago pidió parallax claro en el low-fi de Home A. | Opciones: 1) Sutil (P2), 2) Hero con profundidad (P1+P2), 3) Coreografía completa (P1–P4) | Elegida: 2 para mobile **y desktop** | Por qué: un solo momento "wow" (letras que se hunden detrás del edificio) y calma después; protege el CTA y el rendimiento. Desktop no escala a la 3 por decisión de Santiago. | Tensión: no
 
